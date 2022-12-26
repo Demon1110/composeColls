@@ -1,0 +1,196 @@
+﻿违约指数01
+ {type:'wyzs01', data:{gsmc: '测试企业', wyzs: 108,	wypj: 3}}
+稳定指数
+ {type:'wdzs', data:{gsmc: '测试企业', wdzs: 108}}
+违约指数02,履约指数
+  {type:'wyzs02', data:{gsmc: '测试企业', wyzs: 108,	wypj: 3}}
+违约对照01,履约指数分布图
+  {type:'wydz01', data:{gsmc: '测试企业'}}
+成长指数01
+  {type:'czzs01', data:{gsmc: '测试企业', czzs: 98,	czpj: 3}}
+  echart2.0传参
+  {
+    option对象
+  }
+
+ 条形码
+ {
+ type:"barcode",
+ data:"3133325308850176"
+ }
+
+  echart3.0传参
+  发票统计图，折柱混合图
+    {
+        type:"line_bar_back",
+        data:{"backgroundColor":"#fff","color":["#3398DB"],"title":{"text":"开票金额、开票数量统计","x":"center"},"toolbox":{"show":true,"trigger":"axis"},"tooltip":{"show":true,"trigger":"axis"},"calculable":true,"legend":{"data":["开票金额"," ","开票数量"],"x":"center","y":"5%"},"grid":{"left":"4%","right":"4%","bottom":"5%","top":"10%","height":"80%","containLabel":true,"z":22},"xAxis":[{"type":"category","gridIndex":0,"data":["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"axisTick":{"alignWithLabel":true},"axisLine":{"lineStyle":{"color":"rgb(170,170,170)"}},"axisLabel":{"show":true,"color":"rgb(170,170,170)","fontSize":16}}],"yAxis":[{"type":"value","name":"开票金额（万元）","gridIndex":0,"splitLine":{"show":false},"axisTick":{"show":false},"axisLine":{"lineStyle":{"color":"rgb(170,170,170)"}},"axisLabel":{"color":"rgb(170,170,170)"}},{"type":"value","name":"开票数量（张）","splitLine":{"show":false},"axisTick":{"show":false},"axisLine":{"lineStyle":{"color":"rgb(170,170,170)"}},"axisLabel":{"color":"rgb(170,170,170)"}}],"series":[{"name":"开票金额","type":"bar","barWidth":"28%","xAxisIndex":0,"yAxisIndex":0,"itemStyle":{"normal":{"barBorderRadius":50,"borderColor":"#6AA3C5","borderWidth":2,"color":{"x":0,"y":0,"x2":0,"y2":1,"type":"linear","global":false,"colorStops":[{"offset":0,"color":"#A4FD02"},{"offset":1,"color":"#EAF140"}]}}},"data":[77,66,100,88,57,69,49,67,19,33,100,74],"zlevel":11},{"name":"最大值","type":"bar","barWidth":"35%","xAxisIndex":0,"yAxisIndex":0,"barGap":"-113%","data":[100,100,100,100,100,100,100,100,100,100,100,100],"itemStyle":{"normal":{"barBorderRadius":50,"borderColor":"#C4C4C4","borderWidth":2,"color":"rgba(255,255,255,0.1)"}},"zlevel":9},{"name":"开票数量","type":"line","yAxisIndex":1,"barWidth":"35%","barGap":"-108%","data":[47,86,90,58,107,39,45,67,9,3,10,7],"itemStyle":{"normal":{"borderColor":"#6AA3C5","borderWidth":1}},"zlevel":99}]}
+    }
+
+    字符云 echart2.0传参
+    {
+          "series": [
+            {
+              "autoSize": {
+                "enable": true,
+                "minSize": 14
+              },
+              "size": [
+                "100%",
+                "100%"
+              ],
+              "data": [
+                {
+                  "name": "持续发展期企业",
+                  "itemStyle": {
+                    "normal": {
+                      "color": "rgb(79,129,189)",
+                      "textStyle": {
+                        "fontclass": "最大",
+                        "fontFamily": "黑体",
+                        "fontSize": "30px"
+                      }
+                    }
+                  },
+                  "value": "30"
+                },
+                {
+                  "name": "企业经营规范",
+                  "itemStyle": {
+                    "normal": {
+                      "color": "rgb(226,107,10)",
+                      "textStyle": {
+                        "fontclass": "大",
+                        "fontFamily": "黑体",
+                        "fontSize": "22px"
+                      }
+                    }
+                  },
+                  "value": "22"
+                },
+                {
+                  "name": "鼓励行业",
+                  "itemStyle": {
+                    "normal": {
+                      "color": "rgb(96,73,122)",
+                      "textStyle": {
+                        "fontclass": "大",
+                        "fontFamily": "黑体",
+                        "fontSize": "22px"
+                      }
+                    }
+                  },
+                  "value": "22"
+                },
+                {
+                  "name": "行业销售排名靠前",
+                  "itemStyle": {
+                    "normal": {
+                      "color": "rgb(128,100,162)",
+                      "textStyle": {
+                        "fontclass": "中",
+                        "fontFamily": "黑体",
+                        "fontSize": "18px"
+                      }
+                    }
+                  },
+                  "value": "18"
+                },
+                {
+                  "name": "经销商实力强",
+                  "itemStyle": {
+                    "normal": {
+                      "color": "rgb(0,176,240)",
+                      "textStyle": {
+                        "fontclass": "中",
+                        "fontFamily": "黑体",
+                        "fontSize": "18px"
+                      }
+                    }
+                  },
+                  "value": "18"
+                },
+                {
+                  "name": "股份有限公司",
+                  "itemStyle": {
+                    "normal": {
+                      "color": "rgb(0,32,96)",
+                      "textStyle": {
+                        "fontclass": "最大",
+                        "fontFamily": "黑体",
+                        "fontSize": "30px"
+                      }
+                    }
+                  },
+                  "value": "30"
+                },
+                {
+                  "name": "近年无业务纠纷",
+                  "itemStyle": {
+                    "normal": {
+                      "color": "rgb(255,51,153)",
+                      "textStyle": {
+                        "fontclass": "大",
+                        "fontFamily": "黑体",
+                        "fontSize": "22px"
+                      }
+                    }
+                  },
+                  "value": "22"
+                },
+                {
+                  "name": "供应商实力强",
+                  "itemStyle": {
+                    "normal": {
+                      "color": "rgb(15,35,225)",
+                      "textStyle": {
+                        "fontclass": "中",
+                        "fontFamily": "黑体",
+                        "fontSize": "18px"
+                      }
+                    }
+                  },
+                  "value": "18"
+                },
+                {
+                  "name": "注册地：一线城市",
+                  "itemStyle": {
+                    "normal": {
+                      "color": "rgb(51,102,153)",
+                      "textStyle": {
+                        "fontclass": "最大",
+                        "fontFamily": "黑体",
+                        "fontSize": "30px"
+                      }
+                    }
+                  },
+                  "value": "30"
+                },
+                {
+                  "name": "纳税信用优",
+                  "itemStyle": {
+                    "normal": {
+                      "color": "rgb(49,134,155)",
+                      "textStyle": {
+                        "fontclass": "大",
+                        "fontFamily": "黑体",
+                        "fontSize": "22px"
+                      }
+                    }
+                  },
+                  "value": "22"
+                }
+              ],
+              "textRotation": [
+                0,
+                0
+              ],
+              "textPadding": 0,
+              "type": "wordCloud"
+            }
+          ],
+          "tooltip": {
+            "show": false
+          }
+        }
+
+

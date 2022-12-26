@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>盈利指数图表</title>
+    <meta charset="utf-8"/>
+    <style>
+    	body{ font-family:SimSun;font-size: 12px;line-height: 18px; }
+    	.ylimg {
+		    background: rgba(0, 0, 0, 0) url("./ylzs.png") no-repeat scroll 0 0;
+		    display: block;
+		    position: absolute;
+		    background-size:100% auto; 
+		}
+		.ylline {
+		    border-left: 1.5px dashed red;
+		    height: 206px;
+		    left: 54px;
+		    position: absolute;
+		    top: 56px;
+		    width: 1px;
+		}
+		.yllegend {
+		    color: #585858;
+		    height: auto;
+		    left: 54px;
+		    position: absolute;
+		    top: 35px;
+		    width: auto;
+		}
+        *{
+            font-family:"宋体"!important;
+        }
+    </style>
+  </head>
+  <body>
+	<div id="ylimg" class="ylimg" style="width:720px;height:300px;margin-left:auto">
+		<div id="ylline" style="left: 235.76px;" class="ylline"></div>
+		<div id="yllegend" style="left: 200.76px;" class="yllegend">盈利指数：100</div>
+	</div>
+  </body>
+</html>

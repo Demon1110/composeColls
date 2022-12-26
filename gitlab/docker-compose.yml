@@ -1,0 +1,20 @@
+version: '3'
+services:
+  gitlab:
+    image: 'gitlab/gitlab-ce:latest'
+    container_name: gitlab
+    restart: always
+    environment:
+      GITLAB_OMNIBUS_CONFIG: |
+        external_url 'https://192.168.152.102:8929' #若有域名可以写域名
+        gitlab_rails['gitlab_shell_ssh_port'] = 2224
+    ports:
+      - '8989:443'
+      - '2224:22'
+    volumes:
+      #将相关配置映射到当前目录下的config目录
+      - './config:/etc/gitlab'
+      #将日志映射到当前目录下的logs目录
+      - './logs:/var/log/gitlab'
+      #将数据映射到当前目录下的data目录
+      - './data:/var/opt/gitlab'

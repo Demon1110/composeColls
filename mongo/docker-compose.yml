@@ -1,0 +1,26 @@
+version: '3'
+services:
+  mongodb:
+    image: mongo:latest 
+    container_name: mongodb
+    restart: always                              # 指定容器退出后的重启策略为始终重启
+    ports:
+      - 27017:27017
+    volumes:                                    # 数据卷挂载路径设置,将本机目录映射到容器目录
+      - /etc/localtime:/etc/localtime:ro
+      - /data/mongo_home/mongo:/etc/mongo
+      - /data/mongo_home/db:/data/db
+      - /data/mongo_home/configdb:/data/configdb
+    environment:                                # 设置环境变量,相当于docker run命令中的-e
+      TZ: Asia/Shanghai
+      LANG: en_US.UTF-8
+
+      
+      
+# docker exec -it 2a39c193c05f mongo admin
+
+# use admin
+# db.createUser({ user:'admin',pwd:'123456',roles:[ { role:'userAdminAnyDatabase', db: 'admin'}]});
+# db.auth('admin','123456');
+# use jidi
+# db.createUser({ user:'ixinnuo',pwd:'abc123ABC',roles:[ { role:'dbAdmin', db: 'jidi'},{ role:'readWrite', db: 'jidi'}]});

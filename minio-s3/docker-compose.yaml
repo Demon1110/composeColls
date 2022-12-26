@@ -1,0 +1,44 @@
+version: "3"
+services:
+  minio:
+    image: minio/minio:latest
+    environment:
+      - "MINIO_ACCESS_KEY=minio"
+      - "MINIO_SECRET_KEY=minio123"
+      - "MINIO_BROWSER=off"
+    command: server /data
+    ports:
+      - "9000:9000"
+  gateway:
+    image: minio/minio:latest
+    command: gateway s3 http://minio:9000
+    ports:
+      - "9001:9000"
+    environment:
+      - "MINIO_ACCESS_KEY=minio"
+      - "MINIO_SECRET_KEY=minio123"
+    depends_on:
+      - minio
+  nas:
+    image: minio/minio:latest
+    command: gateway nas /data
+    ports:
+      - "9000:9000"
+    environment:
+      - "MINIO_ACCESS_KEY=minio"
+      - "MINIO_SECRET_KEY=minio123"
+    volumes: 
+    - "./data:/data"
+  app:
+    image: dalongrong/s3-fs:1.86
+    privileged: true
+    environment:
+      - "AWS_KEY=minio"
+      - "AWS_SECRET_KEY=minio123"
+      - "S3_REGION=us-east-1"
+      - "S3_URL=http://minio:9000"
+      - "S3_BUCKET=apps"
+    depends_on:
+      - gateway
+    volumes: 
+    - "./s3:/var/s3"

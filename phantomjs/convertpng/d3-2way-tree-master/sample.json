@@ -1,0 +1,213 @@
+{
+    "name": "航天信息股份有限公司名字很长很长恒昌",
+    "value":"",
+    "root":true,
+    "parents": [
+        {
+          "name": "Transparent_companies_father",
+          "isparent": true,
+          "value":"00%",
+          "father": true
+        },
+        {
+          "name": "Transparent_companies_father",
+          "isparent": true,
+          "value":"10%",
+          "father": true
+        },
+        {
+            "name": "航天信息股份有限公司ddd",
+            "isparent": true,
+            "value":"20%",
+            "parents": [
+            {
+              "name": "Aviation1father",
+              "value":"220%",
+              "isparent": true
+            },
+            {
+              "name": "Transparent_companies1father",
+              "value":"221%",
+              "isparent": true
+            },
+            {
+              "name": "Transport_operators1father",
+              "value":"222%",
+              "isparent": true
+            }
+          ]
+        },
+        {
+            "name": "Transparent_companies_father",
+            "isparent": true,
+          "value":"30%",
+          "father": true
+        },
+        {
+            "name": "Transport_operators_father",
+          "value":"40%",
+            "isparent": true
+        ,
+          "father": true
+        },
+      {
+        "name": "Transparent_companies_66_father",
+        "value":"50%",
+        "isparent": true
+      ,
+        "father": true
+      },
+      {
+        "name": "Transport_operators66__father",
+        "value":"60%",
+        "isparent": true
+      ,
+        "father": true
+      },
+      {
+        "name": "Transparent_companies77_father",
+        "value":"70%",
+        "isparent": true
+      },
+      {
+        "name": "Transport_operators88_father",
+        "value":"80%",
+        "isparent": true
+      },
+      {
+        "name": "9999999999999999_father",
+        "value":"90%",
+        "isparent": true,
+        "parents": [
+          {
+            "name": "Aviation1father",
+            "isparent": true,
+            "value":"990%",
+            "parents": [
+              {
+                "name": "Aviation1father333",
+                "value":"9990%",
+                "isparent": true
+              },
+              {
+                "name": "Transparent_companies1father333",
+                "value":"9991%",
+                "isparent": true
+              },
+              {
+                "name": "Transport_operators1father333",
+                "value":"9992%",
+                "isparent": true
+              }
+            ]
+          },
+          {
+            "name": "Transparent_companies1father",
+            "value":"991%",
+            "isparent": true
+          },
+          {
+            "name": "Transport_operators1father",
+            "value":"992%",
+            "isparent": true
+          }
+        ]
+      }
+
+    ],
+    "children": [
+        {
+            "name": "Airline_alliances",
+            "isparent": false,
+          "children": [
+            {
+              "name": "Airline_alliances1",
+              "isparent": false
+            },
+            {
+              "name": "Airlines_by_continent2",
+              "isparent": false
+            },
+            {
+              "name": "Airlines_by_type3",
+              "isparent": false
+            },
+            {
+              "name": "Defunct_airlines4",
+              "isparent": false
+            }
+          ]
+        },
+        {
+            "name": "111111\n1111188",
+            "isparent": false,
+            "children": [
+            {
+              "name": "Airline_alliances81",
+              "isparent": false,
+              "children": [
+                {
+                  "name": "Airline_alliances81333",
+                  "isparent": false
+                },
+                {
+                  "name": "Airlines_by_continent828333",
+                  "isparent": false
+                },
+                {
+                  "name": "Airlines_by_type83333",
+                  "isparent": false
+                },
+                {
+                  "name": "Defunct_airlines84333",
+                  "isparent": false
+                }
+              ]
+            },
+            {
+              "name": "Airlines_by_continent828",
+              "isparent": false
+            },
+            {
+              "name": "Airlines_by_type83",
+              "isparent": false
+            },
+            {
+              "name": "Defunct_airlines84",
+              "isparent": false
+            }
+          ]
+        },
+        {
+            "name": "Airlines_by_type77",
+            "isparent": false
+        },
+        {
+            "name": "Defunct_airlines66",
+            "isparent": false
+        },
+        {
+          "name": "Airlines_by_continent55",
+          "isparent": false
+        },
+        {
+          "name": "Airlines_by_type44",
+          "isparent": false
+        },
+        {
+          "name": "Defunct_airlines33",
+          "isparent": false
+        },
+        {
+          "name": "Airlines_by\ncontinent22",
+          "isparent": false
+        },
+        {
+          "name": "Airlines_by_type11",
+          "isparent": false
+        }
+
+
+
+    ]
+}

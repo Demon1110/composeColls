@@ -1,0 +1,24 @@
+global:
+  smtp_smarthost: 'smtp.aisino.com:25'
+  smtp_from: 'wangxinyi@aisino.com'
+  smtp_auth_username: 'wangxinyi@aisino.com'
+  smtp_auth_password: '123456wang'
+  smtp_require_tls: false
+route:
+  receiver: 'team-X-mails'
+  group_by: ['alertname', 'cluster']
+  group_wait: 30s
+  group_interval: 5m
+  repeat_interval: 3h
+
+inhibit_rules:
+- source_match:
+    severity: 'critical'
+  target_match:
+    severity: 'warning'
+  equal: ['alertname']
+
+receivers:
+- name: 'team-X-mails'
+  email_configs:
+  - to: '852232096@qq.com'

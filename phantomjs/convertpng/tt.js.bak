@@ -1,0 +1,208 @@
+// Example using HTTP POST operation
+
+phantom.outputEncoding="utf-8";
+
+var server = require('webserver').create(),
+    system = require('system');
+
+if (system.args.length !== 2) {
+    console.log('Usage: postserver.js <portnumber>');
+    phantom.exit(1);
+}
+
+var data = '';
+var port = system.args[1];
+
+
+service = server.listen(port, function (request, response) {
+    console.log('Request received at ' + new Date());
+    response.statusCode = 200;
+    response.headers = {
+        'Cache': 'no-cache',
+        'Content-Type': 'text/plain;charset=utf-8'
+    };
+
+    var page = require('webpage').create();
+    console.log('post data : ' + request.postRaw);
+
+    contentData = decodeURIComponent(request.postRaw);
+    if(contentData.indexOf('data=')==0) {
+        contentData = contentData.substring(5);
+    }
+	contentData = decodeURI(contentData)
+    console.log('Request data : ' + contentData);
+    eval('var data = ' + contentData);
+    console.log('data.type==' + data.type);
+
+    if (data.type=='czzs')
+    {
+        page.open('./czzs.html', function(status){
+            console.log(status);
+            if(status==='success'){
+                page.evaluate(function(s) {
+					var czzsv = 0;
+					if (s.czzs=='—') {
+						czzsv = 0;
+					} else {
+						czzsv = Number(s.czzs);
+					}
+					console.log(czzsv)
+                    var x0 = 60.0, x1 = 135.0, x2 = 655.0, x3 = 730.0;
+					var x = 0, y = 0, t = 1.0, k = 0.0;
+					if (czzsv<=300) {
+						x = x0;
+						y = x1;
+						t = 300.0;
+						k = 0.0;
+					} else if (czzsv>300 && czzsv<=650) {
+						x = x1;
+						y = x2;
+						t = 350.0;
+						k = 300.0;
+					} else if (czzsv>650 && czzsv<=1000) {
+						x = x2;
+						y = x3;
+						t = 350.0;
+						k = 650.0;
+					}
+
+                    document.getElementById('czline').style.left = ((czzsv-k)*(y-x)/t + x - 6) + "px";
+                    document.getElementById('czlegend').style.left = ((czzsv-k)*(y-x)/t + x) + "px";
+                    document.getElementById('czlegend').innerHTML = "成长指数：" + s.czzs;
+                }, data.data);
+                setTimeout(function(){
+                    page.render('ss1.png');
+                    response.write(page.renderBase64());
+                    response.close();
+                    page.close();
+                },0);
+            }
+        });
+    }
+    else if (data.type=='ylzs')
+    {
+        page.open('./ylzs.html', function(status){
+            console.log(status);
+            if(status==='success'){
+                page.evaluate(function(s) {
+					var ylzsv = 0;
+					if (s.ylzs=='—') {
+						ylzsv = 0;
+					} else {
+						ylzsv = Number(s.ylzs);
+					}
+                    var x = 50.0, y = 682.0;
+                    document.getElementById('ylline').style.left = (ylzsv*(y-x)/100.0 + x) + "px";
+                    document.getElementById('yllegend').style.left = (ylzsv*(y-x)/100.0 + x) + "px";
+                    document.getElementById('yllegend').innerHTML = "盈利指数：" + s.ylzs;
+                }, data.data);
+                setTimeout(function(){
+                    page.render('ss1.png');
+                    response.write(page.renderBase64());
+                    response.close();
+                    page.close();
+                },0);
+            }
+        });
+    }
+    else if (data.type=='wyzs')
+    {
+        page.open('./wyzs.html', function(status){
+            console.log(status);
+            if(status==='success'){
+                page.evaluate(function(s) {
+					var wyzsv = 0;
+					if (s.wyzs=='—') {
+						wyzsv = 0;
+					} else {
+						wyzsv = Number(s.wyzs);
+					}
+                    if (wyzsv < 300.0) {
+                        var x = 56.0, y = 127.0;
+                        document.getElementById('wyline').style.left = (wyzsv*(y-x)/300.0 + x - 6) + "px";
+                        document.getElementById('wylegend').style.left = (wyzsv*(y-x)/300.0 + x) + "px";
+                    } else if (wyzsv <= 650.0) {
+                        var x = 127.0, y = 620.0;
+                        document.getElementById('wyline').style.left = ((wyzsv-300.0)*(y-x)/350.0 + x - 6) + "px";
+                        document.getElementById('wylegend').style.left = ((wyzsv-300.0)*(y-x)/350.0 + x) + "px";
+                    } else {
+                        var x = 620.0, y = 690.0;
+                        document.getElementById('wyline').style.left = ((wyzsv-650.0)*(y-x)/350.0 + x - 6) + "px";
+                        document.getElementById('wylegend').style.left = ((wyzsv-650.0)*(y-x)/350.0 + x) + "px";
+                    }
+                    document.getElementById('wylegend').innerHTML = "履约指数：" + s.wyzs;
+                }, data.data);
+                setTimeout(function(){
+                    page.render('ss1.png');
+                    response.write(page.renderBase64());
+                    response.close();
+                    page.close();
+                },0);
+            }
+        });
+    }
+	else if (data.type=='wdzs')
+    {
+        page.open('./wdzs.html', function(status){
+            console.log(status);
+            if(status==='success'){
+                page.evaluate(function(s) {
+                    var x = 58.0, y = 672.0;
+					var wdzsv = 0;
+					if (s.wdzs=='—') {
+						wdzsv = 0;
+					} else {
+						wdzsv = Number(s.wdzs);
+					}
+
+					if (wdzsv > 1) wdzsv = 1;
+					if (wdzsv < 0) wdzsv = 0;
+
+                    document.getElementById('wdline').style.left = (wdzsv*(y-x) + x) + "px";
+                    document.getElementById('wdlegend').style.left = (wdzsv*(y-x) + x) + "px";
+                    document.getElementById('wdlegend').innerHTML = "稳定指数：" + s.wdzs;
+                }, data.data);
+                setTimeout(function(){
+                    page.render('ss1.png');
+                    response.write(page.renderBase64());
+                    response.close();
+                    page.close();
+                },0);
+            }
+        });
+    }
+    else if (data.type=='wydz')
+    {
+        page.open('./wydz.html', function(status){
+            console.log(status);
+            if(status==='success'){
+                page.evaluate(function(s) { 
+                }, data.data);
+                setTimeout(function(){
+                    page.render('ss1.png');
+                    response.write(page.renderBase64());
+                    response.close();
+                    page.close();
+                },0);
+            }
+        });
+    }
+    else
+    {
+        page.open('./index.html', function(status){
+            console.log(status);
+            if(status==='success'){
+                page.evaluate(function(s) { 
+                    var myChart = echarts.init(document.getElementById('main'));
+                    myChart.setOption(s); 
+                }, data);
+                setTimeout(function(){
+                    page.render('ss1.png');
+                    response.write(page.renderBase64());
+                    response.close();
+                    page.close();
+                },0);
+            }
+        });
+    }
+});

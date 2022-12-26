@@ -1,0 +1,14 @@
+version: '3.1'
+services:
+  gogs:
+    container_name: gogs
+    image: gogs/gogs:latest
+    hostname: gogs
+    restart: always
+    ports:
+      - "1022:22"
+      - "3000:3000"
+    volumes:
+      - ./data/:/data
+      - ./backup/:/backup
+      - ./log/:/app/gogs/log

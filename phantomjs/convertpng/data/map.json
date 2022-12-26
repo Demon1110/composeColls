@@ -1,0 +1,87 @@
+{
+  "series": [
+    {
+      "itemStyle": {
+        "normal": {
+          "label": {
+            "show": true
+          }
+        },
+        "emphasis": {
+          "label": {
+            "show": true
+          }
+        }
+      },
+      "name": "中国",
+      "data": [
+        {
+          "name": "河北",
+          "value": 259140638.5
+        },
+        {
+          "name": "江苏",
+          "value": 204636657.79
+        },
+        {
+          "name": "安徽",
+          "value": 156890677.88
+        },
+        {
+          "name": "上海",
+          "value": 149697498.99
+        },
+        {
+          "name": "北京",
+          "value": 137058552.55
+        },
+        {
+          "name": "山东",
+          "value": 30864602.03
+        },
+        {
+          "name": "重庆",
+          "value": 25908109.84
+        },
+        {
+          "name": "辽宁",
+          "value": 1758039.66
+        },
+        {
+          "name": "未知地域",
+          "value": 1135958.88
+        },
+        {
+          "name": "浙江",
+          "value": 1013697.1
+        },
+        {
+          "name": "其余地区",
+          "value": 91324.02
+        }
+      ],
+      "type": "map",
+      "mapType": "china"
+    }
+  ],
+  "title": {
+    "subtext": "单位:元",
+    "text": "上游地域分布销量",
+    "x": "center"
+  },
+  "dataRange": {
+    "formatter": "{value}元",
+    "min": 0,
+    "text": [
+      "高",
+      "低"
+    ],
+    "max": 259140639,
+    "calculable": true,
+    "y": "bottom",
+    "x": "left"
+  },
+  "tooltip": {
+    "trigger": "item"
+  }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>违约指数图表</title>
+    <meta charset="utf-8"/>
+    <style>
+    	body{ font-family:SimSun;font-size: 12px;line-height: 18px; }
+    	.wyimg {
+		    background: rgba(0, 0, 0, 0) url("./wyzs02.png") no-repeat scroll 0 0;
+		    display: block;
+		    background-size:100% auto;
+            position: relative;
+		}
+		.wyline {
+		    border-left: 1.5px dashed red;
+		    height:  222px;
+		    left: 54px;
+		    position: absolute;
+		    top: 56px;
+		    width: 1px;
+		}
+		.wylegend {
+            position: absolute;
+		    color: #585858;
+		    height: auto;
+		    left: 54px;
+		    top: 35px;
+		    width: auto;
+		}
+        *{
+            font-family:"宋体"!important;
+        }
+    </style>
+  </head>
+  <body>
+	<div id="wyimg" class="wyimg" style="width:762px;height:300px;">
+		<div id="wyline" style="left: 235.76px;" class="wyline">
+        </div>
+		<div id="wylegend" style="left: 238px;" class="wylegend">履约指数：900</div>
+	</div>
+  </body>
+  <script>
+      var width=document.getElementById('wylegend').offsetWidth;
+      console.log(width)
+
+  </script>
+</html>

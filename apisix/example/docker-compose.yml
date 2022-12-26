@@ -1,0 +1,78 @@
+version: "3"
+
+services:
+  apisix-dashboard:
+    image: apache/apisix-dashboard:2.9.0
+    restart: always
+    volumes:
+    - ./dashboard_conf/conf.yaml:/usr/local/apisix-dashboard/conf/conf.yaml
+    ports:
+    - "9002:9000"
+    networks:
+      apisix:
+
+  apisix:
+    image: apache/apisix:2.11.0-alpine
+    restart: always
+    volumes:
+      - ./apisix_log:/usr/local/apisix/logs
+      - /data/nginx_home/html:/usr/share/nginx/html
+      - ./apisix_conf/config.yaml:/usr/local/apisix/conf/config.yaml:ro
+    ##network_mode: host
+    ports:
+      - "9080:9080/tcp"
+      - "9091:9091/tcp"
+      - "9443:9443/tcp"
+      - "9092:9092/tcp"
+      #- "9093:80/tcp"
+    networks:
+      apisix:
+
+  etcd:
+    image: bitnami/etcd:3.4.15
+    restart: always
+    volumes:
+      - etcd_data:/bitnami/etcd
+    environment:
+      ETCD_ENABLE_V2: "true"
+      ALLOW_NONE_AUTHENTICATION: "yes"
+      ETCD_ADVERTISE_CLIENT_URLS: "http://0.0.0.0:2379"
+      ETCD_LISTEN_CLIENT_URLS: "http://0.0.0.0:2379"
+    ports:
+      - "2379:2379/tcp"
+    networks:
+      apisix:
+
+#networks:
+#  apisix:
+#    external: false
+##    name: apisix-net
+#    driver: bridge
+#    ipam:
+#      driver: default
+#      config:
+#        - subnet: 172.28.0.0/16
+
+networks:
+  apisix:
+    driver: custom-driver-a
+    driver_opts:
+      a: 1
+      b: 2
+    enable_ipv6: true
+    external: true
+    internal: true
+    labels:
+      label1: 2
+      label2: 22
+    ipam:
+      driver: default
+      config:
+        aux_addresses:
+          - a: 172.16.16.111
+        ip_range:
+        subnet:
+
+volumes:
+  etcd_data:
+    driver: local

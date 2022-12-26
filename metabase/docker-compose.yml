@@ -1,0 +1,14 @@
+version: '3'
+services:
+  metabase:
+    image: 'metabase/metabase'
+    restart: unless-stopped
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./data:/metabase-data
+      - ./plugins:/plugins
+    environment:
+      TZ: Asia/Shanghai
+      LANG: en_US.UTF-8
+      MB_DB_FILE: /tmp/metabase.db

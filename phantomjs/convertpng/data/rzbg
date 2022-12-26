@@ -1,0 +1,1882 @@
+ /*地图 分支机构 */
+ {
+
+ 	"series": [{
+ 		"itemStyle": {
+ 			"normal": {
+ 				"label": {
+ 					"show": true
+ 				}
+ 			},
+ 			"emphasis": {
+ 				"label": {
+ 					"show": true
+ 				}
+ 			}
+ 		},
+ 		"name": "中国",
+ 		"data": [{
+ 				"name": "河北",
+ 				"value": 1
+ 			},
+ 			{
+ 				"name": "江苏",
+ 				"value": 2
+ 			},
+ 			{
+ 				"name": "安徽",
+ 				"value": 3
+ 			},
+ 			{
+ 				"name": "上海",
+ 				"value": 4
+ 			},
+ 			{
+ 				"name": "北京",
+ 				"value": 55
+ 			},
+ 			{
+ 				"name": "山东",
+ 				"value": 88
+ 			},
+ 			{
+ 				"name": "重庆",
+ 				"value": 99
+ 			},
+ 			{
+ 				"name": "辽宁",
+ 				"value": 77
+ 			},
+
+ 			{
+ 				"name": "浙江",
+ 				"value": 66
+ 			}
+ 		],
+ 		"type": "map",
+ 		"mapType": "china"
+ 	}],
+ 	"title": {
+ 		"subtext": "",
+ 		"text": "分支机构分布销量", //标题
+ 		"x": "center",
+ 		"textStyle": {
+ 			"color": "#378EB2"
+
+ 		}
+ 	},
+ 	"dataRange": {
+ 		"formatter": "{value}家",
+ 		"min": 0,
+ 		"text": [
+ 			"高",
+ 			"低"
+ 		],
+ 		"max": 80,
+ 		"calculable": true,
+ 		"y": "bottom",
+ 		"x": "left",
+ 		"orient": "horizontal"
+ 	},
+ 	"tooltip": {
+ 		"trigger": "item"
+ 	}
+ }
+//地图 供应商分布图，客户分布图
+
+{
+    "type":"mapList",
+    "data":{
+            	"series": [{
+            		"itemStyle": {
+            			"normal": {
+            				"label": {
+            					"show": true
+            				}
+            			},
+            			"emphasis": {
+            				"label": {
+            					"show": true
+            				}
+            			}
+            		},
+
+            		"name": "中国",
+            		"data": [{               //从大到小排序
+            				"name": "河北",
+            				"value": 1
+            			},
+            			{
+            				"name": "江苏",
+            				"value": 2
+            			},
+            			{
+            				"name": "安徽",
+            				"value": 3
+            			},
+            			{
+            				"name": "上海",
+            				"value": 4
+            			},
+            			{
+            				"name": "北京",
+            				"value": 55
+            			},
+            			{
+            				"name": "山东",
+            				"value": 88
+            			},
+            			{
+            				"name": "重庆",
+            				"value": 99
+            			},
+            			{
+            				"name": "辽宁",
+            				"value": 77
+            			},
+
+            			{
+            				"name": "浙江",
+            				"value": 66
+            			}
+            		],
+            		"type": "map",
+            		"mapType": "china"
+            	}],
+            	"title": {
+            		"subtext": "",
+            		"text": "",
+            		"x": "center",
+            		"textStyle": {
+            			"color": "#378EB2"
+
+            		}
+            	},
+            	"dataRange": {
+            		"formatter": "{value}家",
+            		"min": 0,
+            		"text": [
+            			"高",
+            			"低"
+            		],
+            		"max": 80,  //最大值
+            		"calculable": true,
+            		"y": "bottom",
+            		"x": "left",
+            		"orient": "horizontal"
+            	},
+            	"tooltip": {
+            		"trigger": "item"
+            	}
+            }
+
+    }
+
+
+
+//饼图
+{
+    "series": [
+        {
+            "center": [
+                "50%",
+                "60%"
+            ],
+            "name": "",
+            "data": [
+                {
+                    "name": "河北",
+                    "value": 259140638.5
+                },
+                {
+                    "name": "江苏",
+                    "value": 204636657.79
+                },
+                {
+                    "name": "安徽",
+                    "value": 156890677.88
+                },
+                {
+                    "name": "上海",
+                    "value": 149697498.99
+                },
+                {
+                    "name": "北京",
+                    "value": 137058552.55
+                },
+                {
+                    "name": "山东",
+                    "value": 30864602.03
+                },
+                {
+                    "name": "重庆",
+                    "value": 25908109.84
+                },
+                {
+                    "name": "辽宁",
+                    "value": 1758039.66
+                },
+                {
+                    "name": "未知地域",
+                    "value": 1135958.88
+                },
+                {
+                    "name": "浙江",
+                    "value": 1013697.1
+                },
+                {
+                    "name": "其余地区",
+                    "value": 91318.02
+                }
+            ],
+            "radius": "55%",
+            "type": "pie"
+        }
+    ],
+    "legend": {
+        //y: 'bottom',//前五大分类行业投资分布
+        "orient": "horizontal",
+        "data": [
+            "河北",
+            "江苏",
+            "安徽",
+            "上海",
+            "北京",
+            "山东",
+            "重庆",
+            "辽宁",
+            "未知地域",
+            "浙江",
+            "其余地区"
+        ]
+    },
+    "animation":false,
+    "tooltip": {
+        "formatter": "{b} : {c}元 ({d}%)",
+        "trigger": "item"
+    }
+}
+
+//圆环图
+{
+    "type":"line_bar_back",
+    "data":{
+                       tooltip: {
+                           trigger: 'item',
+                           formatter: "{b}: {c} ({d}%)"
+                       },
+                       legend: {
+                           y: 'bottom',
+                           data:['直达','营销广告','搜索引擎','邮件营销','联盟广告','视频广告','百度','谷歌','必应','其他']
+                       },
+                       series: [
+
+                           {
+                               type:'pie',
+                               radius: ['30%', '55%'],
+                               label: {
+                                   normal: {
+                                       formatter: '{d}% ',//百分比：'{d}% '，  数字： '{c}'
+                                   }
+                               },
+
+                               data:[
+                                   {value:335, name:'直达'},
+                                   {value:310, name:'邮件营销'},
+                                   {value:234, name:'联盟广告'},
+                                   {value:135, name:'视频广告'},
+                                   {value:1048, name:'百度'},
+                                   {value:251, name:'谷歌'},
+                                   {value:147, name:'必应'},
+                                   {value:102, name:'其他'}
+                               ]
+                           }
+                       ]
+                   }
+    }
+
+ //3.0 /*换y轴 工商信息变更*/
+ {
+    "type":"line_bar_back",
+    "data":{
+
+                     "tooltip": {},
+                     "grid":{
+                         "left": "4%",
+                         "right": "4%",
+                         "bottom": "5%",
+                         "top": "10%",
+                         "height": "80%",
+                         "containLabel": true,
+                         "z": 22
+                     },
+
+                     "yAxis": {
+                         "type": 'category',
+                         "data": ["其他变更","经营范围","股东变更","法定代表人变更","注册资本变更","企业名称变更"],//数据倒着排
+
+                         "offset":10,
+                         "axisLabel":{
+                            "interval": 0,
+                             "textStyle": {
+                                 "color":"#342508",
+                                 "fontSize":18,
+                                 "margin":10
+                             },
+                             "y":10
+                         },
+                         "axisLine": {
+                             "lineStyle": {
+                                 "type": 'solid',
+                                 "color":"#342508",
+                                 "width":'1  ',
+
+                             }
+                         },
+
+
+                     },
+                     xAxis: {
+                         type: 'value',
+                         offset:10,
+                         splitLine: {
+                             show: true,
+                             lineStyle:{
+                                 color: "#342508",
+                                 width: 1,
+                                 type: 'solid'
+                             }
+                         },
+                         axisLabel: {
+                             textStyle: {
+                                 color: "#342508",
+                                 fontSize:18,
+                             }
+                         },
+                         axisLine: {
+                             show:false,
+                         },
+                         axisTick:{
+                             show:false,
+                         },
+                     },
+                     series: [{
+                         name: '',
+                         type: 'bar',
+                         barWidth:"50%",
+                         data: [30,49,26, 60, 26,1],    //数据倒着排
+                         itemStyle: {
+                             normal: {
+                                 color: '#0ec1ff'
+                             }
+                         },
+                         label: {
+                             normal: {
+                                 show: true,
+                                 textStyle: {
+                                     color:"#342508",
+                                     fontSize:18,
+                                     margin:10
+                                 },
+                                 position: 'insideRight'
+                             }
+                         },
+                     }]
+                 }
+ }
+
+    //双轴折柱混合图
+
+    {
+                 type:"line_bar_back",
+                 data:{
+                               tooltip : {
+                                     trigger: 'axis',
+                                     axisPointer : {
+                                         type : 'shadow'
+                                     }
+                                 },
+                              legend: {
+                                  data: ['销售商品数量', '销售金额（万元）'],//图例名称
+                                  bottom: '0',//距离左侧的百分比
+                              },
+                              grid: {
+                                  "left": "4%",
+                                  "right": "4%",
+                                  "bottom": "10%",
+                                  "top": "10%",
+                                  "height": "80%",
+                                  "containLabel": true,
+                                  "z": 22
+                              },
+                              xAxis: [
+                                  {
+                                      type: 'category',
+                                      data: ['2016','2017','2018','2019'],
+                                      axisPointer: {
+                                          type: 'shadow'
+                                      },
+                                      axisLabel: {
+                                          textStyle: {
+                                              color: "#342508",
+                                              fontSize:18,
+                                              margin:20
+                                          }
+                                      },
+                                      axisLine: {
+                                          show:false,
+                                      },
+                                      axisTick:{
+                                          show:false,
+                                      },
+                                  }
+                              ],
+                              yAxis: [
+                                  {
+                                      type: 'value',
+
+
+                                      axisLabel: {
+                                          formatter: '{value} '
+                                      },
+                                      axisLine: {
+                                          show:false,
+                                      },
+                                      axisTick:{
+                                          show:false,
+                                      },
+                                  },
+                                  {
+                                      type: 'value',
+
+                                      axisLabel: {
+                                          formatter: '{value} '
+                                      },
+                                      axisLine: {
+                                          show:false,
+                                      },
+                                      axisTick:{
+                                          show:false,
+                                      },
+                                  }
+                              ],
+                              series: [
+                                  {
+                                      name:'销售商品数量',
+                                      type:'bar',
+                                      data:[20, 49, 70 ,66],
+                                      barWidth : '30%',
+                                      label: {
+                                          normal: {
+                                              show: true,
+                                              textStyle: {
+                                                  color:"#342508",
+                                                  fontSize:18,
+                                                  margin:10
+                                              },
+                                              position: 'inside'
+                                          }
+                                      },
+                                  },
+
+                                  {
+                                      name:'销售金额（万元）',
+                                      type:'line',
+                                      yAxisIndex: 1,
+                                      data:[20, 22, 33,45],
+                                      barWidth : '30%',
+                                      label: {
+                                          normal: {
+                                              show: true,
+                                              textStyle: {
+                                                  color:"#342508",
+                                                  fontSize:18,
+                                                  margin:10
+                                              },
+                                              position: 'top'
+                                          }
+                                      },
+                                  }
+                              ]
+                          }
+
+                 }
+
+
+
+                 //双轴折柱混合图 (%)
+
+                     {
+                                  type:"line_bar_back",
+                                  data: {
+                                               tooltip : {
+                                                   trigger: 'axis',
+
+                                                   axisPointer : {
+                                                       type : 'shadow'
+                                                   }
+                                               },
+                                               legend: {
+                                                   data: ['前三大商品分类金额', '前三大商品分类金额占比'],//图例名称
+                                                   bottom: '0',//距离左侧的百分比
+                                               },
+                                               grid: {
+                                                   "left": "4%",
+                                                   "right": "4%",
+                                                   "bottom": "10%",
+                                                   "top": "10%",
+                                                   "height": "80%",
+                                                   "containLabel": true,
+                                                   "z": 22
+                                               },
+                                               xAxis: [
+                                                   {
+                                                       type: 'category',
+                                                       data: ['2016','2017','2018','2019'],
+                                                       axisPointer: {
+                                                           type: 'shadow'
+                                                       },
+                                                       axisLabel: {
+                                                           textStyle: {
+                                                               color: "#342508",
+                                                               fontSize:18,
+                                                               margin:20
+                                                           }
+                                                       },
+                                                       axisLine: {
+                                                           show:false,
+                                                       },
+                                                       axisTick:{
+                                                           show:false,
+                                                       },
+                                                   }
+                                               ],
+                                               yAxis: [
+                                                   {
+                                                       type: 'value',
+
+
+                                                       axisLabel: {
+                                                           formatter: '{value} '
+                                                       },
+                                                       axisLine: {
+                                                           show:false,
+                                                       },
+                                                       axisTick:{
+                                                           show:false,
+                                                       },
+                                                   },
+                                                   {
+                                                       type: 'value',
+
+                                                       axisLabel: {
+                                                           formatter: '{value} %'
+                                                       },
+                                                       axisLine: {
+                                                           show:false,
+                                                       },
+                                                       axisTick:{
+                                                           show:false,
+                                                       },
+                                                   }
+                                               ],
+                                               series: [
+                                                   {
+                                                       name:'前三大商品分类金额',
+                                                       type:'bar',
+                                                       data:[20, 49, 70 ,66],
+                                                       barWidth : '30%',
+                                                       label: {
+                                                           normal: {
+                                                               show: true,
+                                                               textStyle: {
+                                                                   color:"#342508",
+                                                                   fontSize:18,
+                                                                   margin:10
+                                                               },
+                                                               position: 'inside'
+                                                           }
+                                                       },
+                                                   },
+
+                                                   {
+                                                       name:'前三大商品分类金额占比',
+                                                       type:'line',
+                                                       yAxisIndex: 1,
+                                                       data:[20, 22, 33,45],
+                                                       barWidth : '30%',
+
+                                                       label: {
+
+                                                           normal: {
+                                                               formatter:"{c}%",
+                                                               show: true,
+                                                               textStyle: {
+                                                                   color:"#342508",
+                                                                   fontSize:18,
+                                                                   margin:10
+                                                               },
+                                                               position: 'top'
+                                                           }
+                                                       },
+                                                   }
+                                               ]
+                                           }
+
+                     }
+
+
+//单轴   堆积图 3.0
+ {
+    type:"line_bar_back",
+    data:{
+         tooltip : {
+             trigger: 'axis',
+             axisPointer : {
+                 type : 'shadow'
+             }
+         },
+         legend: {
+             data: ['增值税', '企业所得税','印花税'],//图例名称
+             bottom: '0',//距离左侧的百分比
+         },
+         grid: {
+             "left": "4%",
+             "right": "4%",
+             "bottom": "10%",
+             "top": "10%",
+             "height": "80%",
+             "containLabel": true,
+             "z": 22
+         },
+         xAxis: {
+             name : '',//x轴说明
+             type: 'category',
+             data: ['2016','2017','2018','2019'],//年份
+
+             axisLabel: {
+                 textStyle: {
+                     color: "#342508",
+                     fontSize:18,
+                     margin:20
+                 }
+             },
+             axisLine: {
+                 show:false,
+             },
+             axisTick:{
+                 show:false,
+             },
+         },
+         yAxis:  {
+             type: 'value',
+             //boundaryGap:['20%','20%'],
+             offset:10,
+             splitLine: {
+                 show: true,
+                 lineStyle:{
+                     color: "#342508",
+                     width: 1,
+                     type: 'solid'
+                 }
+             },
+             axisLabel: {
+                 textStyle: {
+                     color: "#342508",
+                     fontSize:18,
+                     margin:20
+                 }
+             },
+
+             axisLine: {
+                 show:false,
+             },
+             axisTick:{
+                 show:false,
+             },
+         },
+         series: [
+             {
+                 name: '增值税',
+                 type: 'bar',
+                 stack: '总量',
+                 barWidth : '30%',
+                 label: {
+                     normal: {
+                         show: true,
+                         textStyle: {
+                             color:"#342508",
+                             fontSize:18,
+                             margin:10
+                         },
+                         position: 'inside'
+                     }
+                 },
+
+
+                 data: [320, 302, 301, 334]  //年份值
+             },
+
+             {
+                 name: '企业所得税',
+                 type: 'bar',
+                 stack: '总量',
+                 barWidth : '30%',
+                 label: {
+                     normal: {
+                         show: true,
+                         textStyle: {
+                             color:"#342508",
+                             fontSize:18,
+                             margin:10
+                         },
+                         position: 'inside'
+                     }
+                 },
+                 data: [120, 132, 101, 134],
+             },
+             {
+                 name: '印花税',
+                 type: 'bar',
+                 stack: '总量',
+                 barWidth : '30%',
+                 label: {
+                     normal: {
+                     textStyle: {
+                             color:"#342508",
+                             fontSize:18,
+                             margin:10
+                         },
+                         show: true,
+                         position: 'inside'
+                     }
+                 },
+                 data: [120, 132, 101, 134],
+             },
+         ]
+    }
+    }
+    //单轴，折线图
+    {
+                     type:"line_bar_back",
+                     data:{
+                                  tooltip : {
+                                      trigger: 'axis',
+
+                                      axisPointer : {
+                                          type : 'shadow'
+                                      }
+                                  },
+                                  legend: {
+                                      data: ['前三大商品分类金额', '前三大商品分类金额占比'],//图例名称
+                                      bottom: '0',//距离左侧的百分比
+                                  },
+                                  grid: {
+                                      "left": "4%",
+                                      "right": "4%",
+                                      "bottom": "10%",
+                                      "top": "10%",
+                                      "height": "80%",
+                                      "containLabel": true,
+                                      "z": 22
+                                  },
+                                  xAxis: [
+                                      {
+                                          type: 'category',
+                                          data: ['2016','2017','2018','2019'],
+                                          axisPointer: {
+                                              type: 'shadow'
+                                          },
+                                          axisLabel: {
+                                              textStyle: {
+                                                  color: "#342508",
+                                                  fontSize:18,
+                                                  margin:20
+                                              }
+                                          },
+                                          axisLine: {
+                                              show:false,
+                                          },
+                                          axisTick:{
+                                              show:false,
+                                          },
+                                      }
+                                  ],
+                                  yAxis: [
+                                      {
+                                          type: 'value',
+
+
+                                          axisLabel: {
+                                              formatter: '{value} '
+                                          },
+                                          axisLine: {
+                                              show:false,
+                                          },
+                                          axisTick:{
+                                              show:false,
+                                          },
+                                      },
+                                      {
+                                          type: 'value',
+
+                                          axisLabel: {
+                                              formatter: '{value} %'
+                                          },
+                                          axisLine: {
+                                              show:false,
+                                          },
+                                          axisTick:{
+                                              show:false,
+                                          },
+                                      }
+                                  ],
+                                  series: [
+                                      {
+                                          name:'前三大商品分类金额',
+                                          type:'bar',
+                                          data:[20, 49, 70 ,66],
+                                          barWidth : '30%',
+                                          label: {
+                                              normal: {
+                                                  show: true,
+                                                  textStyle: {
+                                                      color:"#342508",
+                                                      fontSize:18,
+                                                      margin:10
+                                                  },
+                                                  position: 'inside'
+                                              }
+                                          },
+                                      },
+
+                                      {
+                                          name:'前三大商品分类金额占比',
+                                          type:'line',
+                                          yAxisIndex: 1,
+                                          data:[20, 22, 33,45],
+                                          barWidth : '30%',
+
+                                          label: {
+                                              normal: {
+                                                  formatter:'{c}% ',
+                                                  //formatter:'{c}',
+                                                  show: true,
+                                                  textStyle: {
+                                                      color:"#342508",
+                                                      fontSize:18,
+                                                      margin:10
+                                                  },
+                                                  position: 'top'
+                                              }
+                                          },
+                                      }
+                                  ]
+                              }
+
+                     }
+
+
+                     //单轴，折线图 带拖动区间 进项交易额 销项交易额
+                        {
+                        	type: "line_bar_back",
+                        	data: {
+                        		tooltip: {
+                        			trigger: 'axis',
+
+                        			axisPointer: {
+                        				type: 'shadow'
+                        			}
+                        		},
+                        		legend: {
+                        			data: ['进项交易额', '销项交易额'], //图例名称
+                        			bottom: '10%', //距离左侧的百分比
+                        		},
+                        		grid: {
+                        			"left": "4%",
+                        			"right": "4%",
+                        			"bottom": "15%",
+                        			"top": "5%",
+                        			"height": "80%",
+                        			"containLabel": true,
+                        			"z": 22
+                        		},
+                        		xAxis: [{
+                        			type: 'category',
+                        			name: "日期",
+                        			data: ['2016', '2017', '2018', '2019'],
+                        			axisPointer: {
+                        				type: 'shadow'
+                        			},
+                        			axisLabel: {
+
+                        				textStyle: {
+                        					color: "#342508",
+                        					fontSize: 14,
+                        					margin: 20
+                        				}
+                        			},
+                        			axisLine: {
+                        				show: false,
+                        			},
+                        			axisTick: {
+                        				show: false,
+                        			},
+                        		}],
+                        		yAxis: {
+                        			type: 'value',
+                        			name: "交易额：万元",
+
+
+
+                        			axisLabel: {
+                        				formatter: '{value} '
+                        			},
+                        			axisLine: {
+                        				show: false,
+                        			},
+                        			axisTick: {
+                        				show: false,
+                        			},
+                        		},
+                        		dataZoom: {
+                        			show: true,
+                        			bottom: '0',
+                        		},
+
+
+                        		series: [{
+                        			name: '进项交易额',
+                        			smooth: true,
+                        			type: 'line',
+                        			data: [20, 49, 70, 66],
+                        			barWidth: '30%',
+                        			label: {
+                        				normal: {
+                        					show: true,
+                        					textStyle: {
+                        						color: "#342508",
+                        						fontSize: 18,
+                        						margin: 10
+                        					},
+                        					position: 'top'
+                        				}
+                        			},
+                        		}, {
+                        			name: '销项交易额',
+                        			smooth: true,
+                        			type: 'line',
+                        			data: [201, 491, 701, 661],
+                        			barWidth: '30%',
+                        			label: {
+                        				normal: {
+                        					show: true,
+                        					textStyle: {
+                        						color: "#342508",
+                        						fontSize: 18,
+                        						margin: 10
+                        					},
+                        					position: 'top'
+                        				}
+                        			},
+                        		}]
+                        	}
+
+                        }
+
+    //单轴 双柱 设备监控信息
+    {
+            type:"line_bar_back",
+            data:{
+                                 tooltip : {
+                                     trigger: 'axis',
+                                     axisPointer : {
+                                         type : 'shadow'
+                                     }
+                                 },
+                                 legend: {
+                                     data: ['ip归属地变更次数', '开票限额变更次数'],//图例名称
+                                     bottom: '0',//距离左侧的百分比
+                                 },
+                                 grid: {
+                                     "left": "4%",
+                                     "right": "4%",
+                                     "bottom": "10%",
+                                     "top": "10%",
+                                     "height": "80%",
+                                     "containLabel": true,
+                                     "z": 22
+                                 },
+                                 xAxis: {
+                                     name : '',//x轴说明
+                                     type: 'category',
+                                     data: ['2016','2017','2018','2019'],//年份
+
+                                     axisLabel: {
+                                         textStyle: {
+                                             color: "#342508",
+                                             fontSize:18,
+                                             margin:20
+                                         }
+                                     },
+                                     axisLine: {
+                                         show:false,
+                                     },
+                                     axisTick:{
+                                         show:false,
+                                     },
+                                 },
+                                 yAxis:  {
+                                     type: 'value',
+                                     //boundaryGap:['20%','20%'],
+                                     offset:10,
+                                     splitLine: {
+                                         show: true,
+                                         lineStyle:{
+                                             color: "#342508",
+                                             width: 1,
+                                             type: 'solid'
+                                         }
+                                     },
+                                     axisLabel: {
+                                         textStyle: {
+                                             color: "#342508",
+                                             fontSize:18,
+                                             margin:20
+                                         }
+                                     },
+
+                                     axisLine: {
+                                         show:false,
+                                     },
+                                     axisTick:{
+                                         show:false,
+                                     },
+                                 },
+                                 series: [
+                                     {
+                                         name: 'ip归属地变更次数',
+                                         type: 'bar',
+
+                                         barWidth : '30%',
+                                         label: {
+                                             normal: {
+                                                 show: true,
+                                                 textStyle: {
+                                                     color:"#342508",
+                                                     fontSize:18,
+                                                     margin:10
+                                                 },
+                                                 position: 'inside'
+                                             }
+                                         },
+
+
+                                         data: [320, 302, 301, 334]  //年份值
+                                     },
+
+                                     {
+                                         name: '开票限额变更次数',
+                                         type: 'bar',
+
+                                         barWidth : '30%',
+                                         label: {
+                                             normal: {
+                                                 show: true,
+                                                 textStyle: {
+                                                     color:"#342508",
+                                                     fontSize:18,
+                                                     margin:10
+                                                 },
+                                                 position: 'inside'
+                                             }
+                                         },
+                                         data: [120, 132, 101, 134],
+                                     }
+                                 ]
+                             }
+
+     }
+
+
+     /*单轴 招聘信息 法定代表人对外任职情况*/
+    {
+        type:"line_bar_back",
+        data:{
+
+                 tooltip: {},
+                 grid:{
+                     "left": "4%",
+                     "right": "4%",
+                     "bottom": "5%",
+                     "top": "10%",
+                     "height": "80%",
+                     "containLabel": true,
+                     "z": 22
+                 },
+
+                 xAxis: {
+                     offset:10,
+                     data: ["swc-sdhgq","swc-sdh1q","swc-sdh2gq","swc-sdhg3","swc-sdhg4"],//职位名称
+                     axisTick:{
+                         show:false,
+                     },
+                     axisLabel:{
+                         interval: 0,
+                         rotate:25,
+                         textStyle: {
+                             color:"#342508",
+                             fontSize:18,
+                             margin:10
+                         },
+                         y:10
+                     },
+                     axisLine: {
+                         lineStyle: {
+                             type: 'solid',
+                             color:"#342508",
+                             width:'1  ',
+
+                         }
+                     },
+
+                     axisTick:{
+                         show:false,
+                     },
+
+                 },
+                 yAxis: {
+                     offset:10,
+                     splitLine: {
+                         show: true,
+                         lineStyle:{
+                             color: "#342508",
+                             width: 1,
+                             type: 'solid'
+                         }
+                     },
+                     axisLabel: {
+                         textStyle: {
+                             color: "#342508",
+                             fontSize:18,
+                         }
+                     },
+                     axisLine: {
+                         show:false,
+                     },
+                     axisTick:{
+                         show:false,
+                     },
+                 },
+                 series: [{
+                     name: '威胁值',
+                     type: 'bar',
+                     barWidth:"35%",
+                     data: [30,49,26, 60, 26],//职位名称值
+		     label: {
+                     normal: {
+                     textStyle: {
+                             color:"#342508",
+                             fontSize:18,
+                             margin:10
+                         },
+                         show: true,
+                         position: 'inside'
+                     }
+                 },
+                     itemStyle: {
+                         normal: {
+                             color: '#0ec1ff'
+                         }
+                     },
+                 }]
+             }
+		
+	}
+
+/*************************单轴 柱图  */
+        {
+                type:"line_bar_back",
+                data:{
+
+                    tooltip: {},
+                    grid:{
+                        "left": "4%",
+                        "right": "4%",
+                        "bottom": "5%",
+                        "top": "10%",
+                        "height": "80%",
+                        "containLabel": true,
+                        "z": 22
+                    },
+
+                    xAxis: {
+                        offset:10,
+                        data: ["swc-sdhgq","swc-sdh1q","swc-sdh2gq","swc-sdhg3","swc-sdhg4"] ,//x轴
+
+                        axisTick:{
+                            show:false,
+                        },
+                        axisLabel:{
+                            textStyle: {
+                                color:"#342508",
+                                fontSize:18,
+                                margin:10
+                            },
+                            y:10
+                        },
+                        axisLine: {
+                            lineStyle: {
+                                type: 'solid',
+                                color:"#342508",
+                                width:'1  ',
+
+                            }
+                        },
+
+                    },
+                    yAxis: {
+                        offset:10,
+                        splitLine: {
+                            show: true,
+                            lineStyle:{
+                                color: "#342508",
+                                width: 1,
+                                type: 'solid'
+                            }
+                        },
+                        axisLabel: {
+                            textStyle: {
+                                color: "#342508",
+                                fontSize:18,
+                            }
+                        },
+                        axisLine: {
+                            show:false,
+                        },
+                        axisTick:{
+                            show:false,
+                        },
+                    },
+                    series: [{
+                        name: '威胁值',
+                        type: 'bar',
+                        barWidth:"35%",
+                        data: [30,49,26, 60, 26],//y轴 0传"" [30,49,"", 60, 26],
+                        itemStyle: {
+                            normal: {
+                                color: '#0ec1ff'
+                            }
+                        },
+                        label: {
+                            normal: {
+
+                                textStyle: {
+                                    color:"#342508",
+                                    fontSize:18,
+                                    margin:10
+                                },
+                                show: true,
+                                position: 'inside'
+                            }
+                        },
+                    }]
+                }
+        }
+
+
+//************************族谱图 径向树图
+        {
+        	"type": "tree8",
+        	"data": {
+        		"tooltip": {
+        			"trigger": "item",
+        			"triggerOn": "mousemove"
+        		},
+        		"series": [{
+        			"type": "tree",
+        			"roam": true,
+        			"data": [{
+        				"name": "航天信息股份有限公司",
+        				"itemStyle": {
+        					"color": "#36A5FF",
+        					"borderColor": "#36A5FF"
+        				},
+        				"lineStyle": {
+        					"color": "#36A5FF",
+        					"borderColor": "#36A5FF"
+        				},
+        				"children": [{
+        					"name": "股东",
+        					"itemStyle": {
+        						"color": "#E2B2F1",
+        						"borderColor": "#E2B2F1"
+        					},
+        					"lineStyle": {
+        						"color": "#E2B2F1",
+        						"borderColor": "#E2B2F1"
+        					},
+        					"children": [{
+        						"name": "cluster",
+        						"itemStyle": {
+        							"color": "#E2B2F1",
+        							"borderColor": "#E2B2F1"
+        						},
+        						"lineStyle": {
+        							"color": "#E2B2F1",
+        							"borderColor": "#E2B2F1"
+        						},
+        						"children": [{
+        							"name": "AgglomerativeCluster",
+        							"itemStyle": {
+        								"color": "#E2B2F1",
+        								"borderColor": "#E2B2F1"
+        							},
+        							"lineStyle": {
+        								"color": "#E2B2F1",
+        								"borderColor": "#E2B2F1"
+        							},
+        							"value": 3938
+        						}, {
+        							"name": "CommunityStructure",
+        							"itemStyle": {
+        								"color": "#E2B2F1",
+        								"borderColor": "#E2B2F1"
+        							},
+        							"lineStyle": {
+        								"color": "#E2B2F1",
+        								"borderColor": "#E2B2F1"
+        							},
+        							"value": 3812
+        						}, {
+        							"name": "HierarchicalCluster",
+        							"itemStyle": {
+        								"color": "#E2B2F1",
+        								"borderColor": "#E2B2F1"
+        							},
+        							"lineStyle": {
+        								"color": "#E2B2F1",
+        								"borderColor": "#E2B2F1"
+        							},
+        							"value": 6714
+        						}, {
+        							"name": "MergeEdge",
+        							"itemStyle": {
+        								"color": "#E2B2F1",
+        								"borderColor": "#E2B2F1"
+        							},
+        							"lineStyle": {
+        								"color": "#E2B2F1",
+        								"borderColor": "#E2B2F1"
+        							},
+        							"value": 743
+        						}]
+        					}, {
+        						"name": "graph",
+        						"itemStyle": {
+        							"color": "#E2B2F1",
+        							"borderColor": "#E2B2F1"
+        						},
+        						"lineStyle": {
+        							"color": "#E2B2F1",
+        							"borderColor": "#E2B2F1"
+        						},
+        						"children": [{
+        							"name": "BetweennessCentrality",
+        							"itemStyle": {
+        								"color": "#E2B2F1",
+        								"borderColor": "#E2B2F1"
+        							},
+        							"lineStyle": {
+        								"color": "#E2B2F1",
+        								"borderColor": "#E2B2F1"
+        							},
+        							"value": 3534
+        						}, {
+        							"name": "LinkDistance",
+        							"itemStyle": {
+        								"color": "#E2B2F1",
+        								"borderColor": "#E2B2F1"
+        							},
+        							"lineStyle": {
+        								"color": "#E2B2F1",
+        								"borderColor": "#E2B2F1"
+        							},
+        							"value": 5731
+        						}, {
+        							"name": "MaxFlowMinCut",
+        							"itemStyle": {
+        								"color": "#E2B2F1",
+        								"borderColor": "#E2B2F1"
+        							},
+        							"lineStyle": {
+        								"color": "#E2B2F1",
+        								"borderColor": "#E2B2F1"
+        							},
+        							"value": 7840
+        						}, {
+        							"name": "ShortestPaths",
+        							"itemStyle": {
+        								"color": "#E2B2F1",
+        								"borderColor": "#E2B2F1"
+        							},
+        							"lineStyle": {
+        								"color": "#E2B2F1",
+        								"borderColor": "#E2B2F1"
+        							},
+        							"value": 5914
+        						}, {
+        							"name": "SpanningTree",
+        							"itemStyle": {
+        								"color": "#E2B2F1",
+        								"borderColor": "#E2B2F1"
+        							},
+        							"lineStyle": {
+        								"color": "#E2B2F1",
+        								"borderColor": "#E2B2F1"
+        							},
+        							"value": 3416
+        						}]
+        					}, {
+        						"name": "optimization",
+        						"itemStyle": {
+        							"color": "#E2B2F1",
+        							"borderColor": "#E2B2F1"
+        						},
+        						"lineStyle": {
+        							"color": "#E2B2F1",
+        							"borderColor": "#E2B2F1"
+        						},
+        						"children": [{
+        							"name": "AspectRatioBanker",
+        							"itemStyle": {
+        								"color": "#E2B2F1",
+        								"borderColor": "#E2B2F1"
+        							},
+        							"lineStyle": {
+        								"color": "#E2B2F1",
+        								"borderColor": "#E2B2F1"
+        							},
+        							"value": 7074
+        						}]
+        					}]
+        				}, {
+        					"name": "高管",
+        					"itemStyle": {
+        						"color": "#F8E206",
+        						"borderColor": "#F8E206"
+        					},
+        					"lineStyle": {
+        						"color": "#F8E206",
+        						"borderColor": "#F8E206"
+        					},
+        					"children": [{
+        						"name": "IScaleMap",
+        						"itemStyle": {
+        							"color": "#F8E206",
+        							"borderColor": "#F8E206"
+        						},
+        						"lineStyle": {
+        							"color": "#F8E206",
+        							"borderColor": "#F8E206"
+        						},
+        						"value": 2105
+        					}, {
+        						"name": "LinearScale",
+        						"itemStyle": {
+        							"color": "#F8E206",
+        							"borderColor": "#F8E206"
+        						},
+        						"lineStyle": {
+        							"color": "#F8E206",
+        							"borderColor": "#F8E206"
+        						},
+        						"value": 1316
+        					}]
+        				}, {
+        					"name": "法定代表人",
+        					"itemStyle": {
+        						"color": "#2ACBD9",
+        						"borderColor": "#2ACBD9"
+        					},
+        					"lineStyle": {
+        						"color": "#2ACBD9",
+        						"borderColor": "#2ACBD9"
+        					},
+        					"children": [{
+        						"name": "Arrays",
+        						"itemStyle": {
+        							"color": "#2ACBD9",
+        							"borderColor": "#2ACBD9"
+        						},
+        						"lineStyle": {
+        							"color": "#2ACBD9",
+        							"borderColor": "#2ACBD9"
+        						},
+        						"value": 8258
+        					}, {
+        						"name": "Strings",
+        						"itemStyle": {
+        							"color": "#2ACBD9",
+        							"borderColor": "#2ACBD9"
+        						},
+        						"lineStyle": {
+        							"color": "#2ACBD9",
+        							"borderColor": "#2ACBD9"
+        						},
+        						"value": 22026
+        					}]
+        				}, {
+        					"name": "投资",
+        					"itemStyle": {
+        						"color": "#6ED498",
+        						"borderColor": "#6ED498"
+        					},
+        					"lineStyle": {
+        						"color": "#6ED498",
+        						"borderColor": "#6ED498"
+        					},
+        					"children": [{
+        						"name": "axis",
+        						"itemStyle": {
+        							"color": "#6ED498",
+        							"borderColor": "#6ED498"
+        						},
+        						"lineStyle": {
+        							"color": "#6ED498",
+        							"borderColor": "#6ED498"
+        						},
+        						"children": [{
+        							"name": "Axes",
+        							"itemStyle": {
+        								"color": "#6ED498",
+        								"borderColor": "#6ED498"
+        							},
+        							"lineStyle": {
+        								"color": "#6ED498",
+        								"borderColor": "#6ED498"
+        							},
+        							"value": 1302
+        						}, {
+        							"name": "Axis",
+        							"itemStyle": {
+        								"color": "#6ED498",
+        								"borderColor": "#6ED498"
+        							},
+        							"lineStyle": {
+        								"color": "#6ED498",
+        								"borderColor": "#6ED498"
+        							},
+        							"value": 24593
+        						}, {
+        							"name": "AxisGridLine",
+        							"itemStyle": {
+        								"color": "#6ED498",
+        								"borderColor": "#6ED498"
+        							},
+        							"lineStyle": {
+        								"color": "#6ED498",
+        								"borderColor": "#6ED498"
+        							},
+        							"value": 652
+        						}, {
+        							"name": "AxisLabel",
+        							"itemStyle": {
+        								"color": "#6ED498",
+        								"borderColor": "#6ED498"
+        							},
+        							"lineStyle": {
+        								"color": "#6ED498",
+        								"borderColor": "#6ED498"
+        							},
+        							"value": 636
+        						}, {
+        							"name": "CartesianAxes",
+        							"itemStyle": {
+        								"color": "#6ED498",
+        								"borderColor": "#6ED498"
+        							},
+        							"lineStyle": {
+        								"color": "#6ED498",
+        								"borderColor": "#6ED498"
+        							},
+        							"value": 6703
+        						}]
+        					}, {
+        						"name": "Visualization",
+        						"itemStyle": {
+        							"color": "#6ED498",
+        							"borderColor": "#6ED498"
+        						},
+        						"lineStyle": {
+        							"color": "#6ED498",
+        							"borderColor": "#6ED498"
+        						},
+        						"value": 16540
+        					}]
+        				}]
+        			}],
+        			"layout": "radial",
+        			"top": "10%",
+        			"left": "7%",
+        			"bottom": "10%",
+        			"right": "20%",
+        			"symbolSize": 7,
+        			"initialTreeDepth": 2,
+        			"expandAndCollapse": true,
+        			"animationDuration": 550,
+        			"animationDurationUpdate": 750
+        		}]
+        	}
+        }
+
+//************************排位图
+
+        {
+                        	"type": "pw",
+                        	"data": {
+        	                    "xsqj":[30,90],
+        	                    "qyqj":[80,100],
+        	                    "xspm":"30%-90%",
+        	                    "qypm":"80%-100%",
+        	                    "title":"所属区域上年销售额排名"
+                        	}
+
+                }
+
+//************************仪表盘
+
+               {
+                   title: {
+                       text: '',
+                       x: 'center',
+                       y: 'bottom',
+                       textStyle: {
+                           color: "#333333",
+                           fontWeight: "bold",
+                           fontSize: "16",
+                           fontFamily: "Microsoft YaHei"
+                       }
+                   },
+                   tooltip: {
+                       formatter: "{b} : {c}"
+                   },
+                   series: [
+                       {
+                           name: '业务指标',
+                           type: 'gauge',
+                           splitNumber: 5,
+                           max: 1000,
+                           center: [
+                               '50%',
+                               '50%'
+                           ],
+                           axisLine: {
+                               lineStyle: {
+                                   color: [
+                                       [
+                                           0.2,
+                                           '#228b22'
+                                       ],
+                                       [
+                                           0.8,
+                                           '#48b'
+                                       ],
+                                       [
+                                           1,
+                                           '#ff4500'
+                                       ]
+                                   ],
+                                   width: 10
+                               }
+                           },
+                           axisTick: {
+                               splitNumber: 10,
+                               length: 16,
+                               lineStyle: {
+                                   color: 'auto'
+                               }
+                           },
+                           axisLabel: {
+                               textStyle: {
+                                   color: 'auto'
+                               }
+                           },
+                           splitLine: {
+                               show: true,
+                               length: 30,
+                               lineStyle: {
+                                   color: 'auto'
+                               }
+                           },
+                           pointer: {
+                               show: true,
+                               width: 6
+                           },
+                           title: {
+                               show: false,
+                               offsetCenter: [
+                                   0,
+                                   '-15%'
+                               ],
+                               textStyle: {
+                                   fontWeight: 'bolder'
+                               }
+                           },
+                           detail: {
+                               offsetCenter: [
+                                   0,
+                                   '15%'
+                               ],
+                               textStyle: {
+                                   color: 'auto',
+                                   fontWeight: 'bolder',
+                                   fontSize: 50
+                               }
+                           },
+                           data: [
+                               {
+                                   value: 699,
+                                   name: '综合评分'
+                               }
+                           ]
+                       }
+                   ]
+               };
+
+//*********************企业全息画像
+{
+    "data": {
+        "businessStanding": {
+            "msg": "yes"
+        },
+        "qymc": "航天信息股份有限公司",
+        "ixinnuoBm": "917084051510",
+        "xypfpm": "100%",
+        "xypf": {
+            "企业特质": 244.25,
+            "涉税信用": 126.11,
+            "经营能力": 164.6,
+            "践约评估": 214.16,
+            "供应链健壮": 126.11
+        },
+        "gsjcxx": {
+            "msg": "yes"
+        },
+        "creditAlliance": {
+            "msg": "yes"
+        },
+        "swxypf": "875.22",
+        "qyhx": [
+            {
+                "itemStyle": {
+                    "normal": {
+                        "color": "rgb(128,100,162)",
+                        "textStyle": {
+                            "fontclass": "中",
+                            "fontFamily": "黑体：18点"
+                        }
+                    }
+                },
+                "name": "行业销售排名靠前",
+                "value": "40.00"
+            },
+            {
+                "itemStyle": {
+                    "normal": {
+                        "color": "rgb(118,147,60)",
+                        "textStyle": {
+                            "fontclass": "小",
+                            "fontFamily": "黑体：16点"
+                        }
+                    }
+                },
+                "name": "客户开拓能力较强",
+                "value": "20.00"
+            },
+            {
+                "itemStyle": {
+                    "normal": {
+                        "color": "rgb(79,129,189)",
+                        "textStyle": {
+                            "fontclass": "最大",
+                            "fontFamily": "黑体：30点"
+                        }
+                    }
+                },
+                "name": "持续发展期企业",
+                "value": "90.00"
+            },
+            {
+                "itemStyle": {
+                    "normal": {
+                        "color": "rgb(96,73,122)",
+                        "textStyle": {
+                            "fontclass": "大",
+                            "fontFamily": "黑体：22点"
+                        }
+                    }
+                },
+                "name": "鼓励行业",
+                "value": "80.00"
+            },
+            {
+                "itemStyle": {
+                    "normal": {
+                        "color": "rgb(89,89,89)",
+                        "textStyle": {
+                            "fontclass": "小",
+                            "fontFamily": "黑体：16点"
+                        }
+                    }
+                },
+                "name": "客户忠诚度高",
+                "value": "20.00"
+            },
+            {
+                "itemStyle": {
+                    "normal": {
+                        "color": "rgb(0,102,255)",
+                        "textStyle": {
+                            "fontclass": "小",
+                            "fontFamily": "黑体：16点"
+                        }
+                    }
+                },
+                "name": "经营不稳定",
+                "value": "20.00"
+            },
+            {
+                "itemStyle": {
+                    "normal": {
+                        "color": "rgb(73,69,41)",
+                        "textStyle": {
+                            "fontclass": "小",
+                            "fontFamily": "黑体：16点"
+                        }
+                    }
+                },
+                "name": "存在交易风险",
+                "value": "20.00"
+            },
+            {
+                "itemStyle": {
+                    "normal": {
+                        "color": "rgb(15,35,225)",
+                        "textStyle": {
+                            "fontclass": "中",
+                            "fontFamily": "黑体：18点"
+                        }
+                    }
+                },
+                "name": "供应商实力强",
+                "value": "35.00"
+            }
+        ],
+        "xypfmd": "良好",
+        "xypfqj": "超过95%企业"
+    },
+    "code": "0",
+    "type": "qyhx",
+    "msg": "success"
+}

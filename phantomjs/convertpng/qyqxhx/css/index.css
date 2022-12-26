@@ -1,0 +1,297 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    margin: 0;
+    padding: 0;
+    color: antiquewhite;
+}
+.lv2,.lv3,.lv4,.lv5,.lv6,.lv7{
+	display: inline-block;
+	padding-right:1rem;
+}
+.lv1{
+	font-size: 6rem;
+	color:#ffffff;
+}
+.lv2{
+	font-size: 4.5rem;
+	color:#55DAE0;
+}
+.lv3{
+	font-size: 4rem;
+	color:#2EA8E2;
+}
+.lv4{
+	font-size: 3rem;
+	color:#2a73Ba;
+}
+.lv5{
+	font-size: 2.5rem;
+	color:#2a73Ba;
+}
+.lv6{
+	font-size: 2.5rem;
+	color:#2a73Ba;
+}
+body {
+    /* background-image: url("./images/qyhx.png"); */
+    background-image: url("../images/bg.jpg");
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-position: center 0;
+}
+
+.logo_wrapper {
+    margin: 2rem 0 1rem 0;
+}
+
+.logo_ixn {
+    width: 100%;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-position: center 0;
+}
+
+.sign_logo_wrapper {
+    display: inline-block;
+    position: relative;
+    top: 0rem;
+    width: auto;
+    height: 100%;
+}
+
+.sign_logo {
+    display: none;
+    float: right;
+    width: auto;
+    height: 100%;
+    padding-left: 0.5rem;
+}
+
+.sign_title {
+    display: inline;
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    padding-top: .357143rem;
+}
+#qy_lable{
+    height: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+.qy_lable_div {
+    background-image: url("../images/qyhx.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-position: center 0;
+    padding: 0.8rem 0 1.2rem 0;
+    min-height: 20rem;
+    height: auto;
+}
+
+.aisino_no {
+    color: #21639A;
+    font-size: 1.285714rem;
+    font-weight: 700;
+    float: right;
+    margin-top: 0.2rem;
+}
+
+.echart_wrapper {
+    background-image: url("../images/pf.png");
+    background-repeat: no-repeat;
+    background-size: 100% 60%;
+    -webkit-background-size: 100% 60%;
+    -o-background-size: 100% 60%;
+    background-position: center center;
+    /* height: 13.428571rem; */
+    width: 100%;
+}
+.xypffbt_wrapper{
+    background-image: url("../images/scorebj.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-position: center 0;
+    width: 100%;
+}
+#shuxian{
+    background-image: url("../images/shuxian.png");
+    background-repeat: no-repeat;
+    background-position: 5% 0rem;
+    width: 100%;
+    background-size: 1rem 100%;
+}
+.xyxxgk_wrapper{
+    background-image: url("../images/qyxygk.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-position: center 0;
+    height: 17.857143rem;
+    width: 100%;
+    padding-top: 3.214286rem;
+}
+.xyxxgk_wrapper .col-sm-6{
+    height: 7.285714rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.xyxxgk_wrapper .col-sm-6 .son_level{
+    padding: .142857rem;
+    width: 33.333%;
+    height: 7rem;
+    float: left;
+}
+.son_level span{
+    display: block;
+}
+.son_level .qyxx_title{
+    font-size: 1.285714rem;
+    color: #2FA6E1;
+    font-weight: 700;
+}
+.son_level .qyxx_info{
+    font-size: 1.571429rem;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+.son_level .qyxx_remark{
+    font-size: 1rem;
+    color: #5A5D74;
+    font-weight: 500;
+}
+#title{
+    margin-bottom: .357143rem
+}
+
+#score_echarts {
+    height: 20rem;
+    width: 100%;
+    margin: 1rem auto;
+}
+.share_wrapper{
+    background-image: url("../images/fx.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-position: center center;
+    height: 1.857143rem;
+    width: 14.285714rem;
+    margin: 0 auto;
+    font-size: 1.142857rem;
+    color: #1B2C5A;
+    padding-top: 0rem;
+}
+#footer{
+    margin: 1.428571rem 0;
+}
+.footer_wrapper{
+    font-size: 1rem;
+    color: #20639A;
+}
+
+@media screen and (max-width: 768px) {
+    .aisino_no {
+        position: absolute;
+        top: -5.5rem;
+        right: 0rem;
+    }
+    .xypffbt_wrapper{
+    	padding-top: 70px;
+    }
+    #shuxian{
+    	height: 390px;
+    }
+}
+@media screen and (min-width: 960px) {
+    .container-fluid{
+        width: 960px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .container-fluid{
+        width: 1200px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .container-fluid{
+        width: 1024px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .echart_wrapper {
+        background-image: none;
+    }
+    .div_border{
+        border: 1px solid #105688 ;
+        height: 250px;
+        margin: 10px 2px;
+        width: 49%;
+    }
+    #score_echarts{
+        height: 250px;
+    }
+    .qy_lable_div {
+        background-image: none;
+    }
+    .xyxxgk_wrapper {
+        background-image: none;
+    }
+    #share_div{
+        display: none;
+    }
+    .sign_logo_wrapper{
+        margin-right: 10px;
+    }
+    .logo_ixn{
+        width:130px;
+        height: 30px;
+    }
+    .sign_title{
+        font-size: 20px;
+    }
+    .sign_logo {
+        width: 71px;
+        height: 28px;
+    }
+    .sign_logo_wrapper {
+
+        display: inline-block;
+        position: relative;
+        top: 0rem;
+        width: 150px;
+        height: 28px;
+        margin-right: 5px;
+    
+    }
+    .xypffbt_wrapper{
+    	padding-top: 80px;
+    	padding-bottom: 60px;
+    }
+    #shuxian{
+    	height: 400px;
+    }
+}

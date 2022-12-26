@@ -1,0 +1,17 @@
+version: "3.1"
+
+services:
+
+  seata-server:
+    image: seataio/seata-server:latest
+    hostname: seata-server
+    ports:
+      - 8091:8091
+    environment:
+      - SEATA_PORT=8091
+      - SEATA_CONFIG_NAME=file:/root/seata-config/registry
+    volumes:                                                     # 数据卷挂载路径设置,将本机目录映射到容器目录
+      - "/etc/localtime:/etc/localtime:ro"
+      - "/data/seata-config:/root/seata-config"
+    expose:
+      - 8091

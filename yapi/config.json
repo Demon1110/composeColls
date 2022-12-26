@@ -1,0 +1,12 @@
+{
+    "port": "3001",
+    "adminAccount": "zcpt",
+    "db": {
+       "servername": "192.168.8.212",
+       "DATABASE": "yapi",
+       "port": "27017",
+       "user": "yapi",
+       "pass": "abc123ABC",
+       "authSource": "yapi"
+    }
+ }

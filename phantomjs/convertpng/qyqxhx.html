@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="qyqxhx/css/bootstrap.css">
+    <link rel="stylesheet" href="qyqxhx/css/index3.css">
+    <style>
+        *{
+            font-family:"宋体"!important;
+        }
+    </style>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="echarts-all.js"></script>
+
+
+</head>
+<body >
+    <div class="body_bg" style="width: 1120px;height: 700px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="piece-box" id="n0">
+                        <div class="piece-box2" id="n1">
+                            <div class="piece piece-1">
+                                <div class="xypf_process_wrapper">
+                                    <div class="xypf_process"></div>
+                                </div>
+                                <!-- <div class="xypf_wrapper inline-block">
+                                </div> -->
+                                <div class="qyhx_wrapper rounded'">
+                                    <h5 class="text-vertical color_blue inline-block1">行业综合实力</h5>
+                                    <h3 id="qyhx_percent" class="text-vertical color_blue inline-block1">
+                                    </h3>
+                                    <!--                                 <h3 id="qyhx_percent" class="text-vertical color_blue inline-block1">超过
+                                                                        <b id="xypfpm"></b>企业</h3> -->
+                                    <h3 id="qyhx_1" class="text-vertical color_white inline-block1"></h3>
+                                    <h3 id="qyhx_2" class="text-vertical color_white inline-block1"></h3>
+                                    <h3 id="qyhx_3" class="text-vertical color_white inline-block1"></h3>
+                                    <h3 id="qyhx_4" class="text-vertical color_white inline-block1"></h3>
+                                    <h3 id="qyhx_5" class="text-vertical color_white inline-block1"></h3>
+                                    <h3 id="qyhx_6" class="text-vertical color_white inline-block1"></h3>
+                                    <h3 id="qyhx_7" class="text-vertical color_white inline-block1"></h3>
+                                </div>
+                            </div>
+                            <div class="piece piece-2"></div>
+                            <div class="piece piece-3"></div>
+                            <div class="piece piece-4">
+                                <div class="process-5">
+                                    <div class="bg-process ps1"></div>
+                                    <div class="bg-process ps2"></div>
+                                    <div class="bg-process ps3"></div>
+                                </div>
+                                <div class="qytz_wrapper">
+                                    <h1 id="xypfmd" class="inline-block color_blue"></h1>
+                                    <h3 class="inline-block color_blue">企业</h3>
+                                </div>
+                                <div class="score_wrapper">
+                                    <h4 class="inline-block color_white">商务信用评分</h4>
+                                    <h2 id="xypfScore" class="inline-block color_white"></h2>
+                                </div>
+                                <div class="echart_wrapper">
+                                    <div id="score_echarts"></div>
+                                </div>
+                            </div>
+                            <div class="piece piece-5">
+                                <div class="qyxx_wrapper color_white">
+                                    <h2>
+
+                                    </h2>
+                                    <h3>爱信诺编码:</h3>
+                                    <h3 id="aisino_no"></h3>
+                                </div>
+                                <div class="qylm_wrapper">
+                                    <div class="qylm_text_wrapper inline-block">
+                                        <h2 id="jysj_id" style="display: none;" class="inline-block color_blue">经营数据清晰</h2>
+                                        <h2 id="xylm_id" style="display: none;" class="inline-block color_blue">企业信用承诺联盟</h2>
+                                    </div>
+                                    <div class="qylm_process_wrapper inline-block">
+                                        <div class="bg-process ps1"></div>
+                                        <div class="bg-process ps2"></div>
+                                        <div class="bg-process ps3"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="piece piece-6"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="qyqxhx/init3.js"></script>
+    <script>
+        /*$(function(){
+            document.getElementById('n1').style.webkitTransformStyle="preserve-3d";
+            document.getElementById('n0').style.webkitTransformStyle="preserve-3d";
+        })*/
+
+
+       /* $(function () {
+            var data={
+                "data": {
+                    "businessStanding": {
+                        "msg": "yes"
+                    },
+                    "qymc": "航天信息股份有限公司",
+                    "ixinnuoBm": "917084051510",
+                    "xypfpm": "100%",
+                    "xypf": {
+                        "企业特质": 244.25,
+                        "涉税信用": 126.11,
+                        "经营能力": 164.6,
+                        "践约评估": 214.16,
+                        "供应链健壮": 126.11
+                    },
+                    "gsjcxx": {
+                        "msg": "yes"
+                    },
+                    "creditAlliance": {
+                        "msg": "yes"
+                    },
+                    "swxypf": "875.22",
+                    "qyhx": [
+                        {
+                            "itemStyle": {
+                                "normal": {
+                                    "color": "rgb(128,100,162)",
+                                    "textStyle": {
+                                        "fontclass": "中",
+                                        "fontFamily": "黑体：18点"
+                                    }
+                                }
+                            },
+                            "name": "行业销售排名靠前",
+                            "value": "40.00"
+                        },
+                        {
+                            "itemStyle": {
+                                "normal": {
+                                    "color": "rgb(118,147,60)",
+                                    "textStyle": {
+                                        "fontclass": "小",
+                                        "fontFamily": "黑体：16点"
+                                    }
+                                }
+                            },
+                            "name": "客户开拓能力较强",
+                            "value": "20.00"
+                        },
+                        {
+                            "itemStyle": {
+                                "normal": {
+                                    "color": "rgb(79,129,189)",
+                                    "textStyle": {
+                                        "fontclass": "最大",
+                                        "fontFamily": "黑体：30点"
+                                    }
+                                }
+                            },
+                            "name": "持续发展期企业",
+                            "value": "90.00"
+                        },
+                        {
+                            "itemStyle": {
+                                "normal": {
+                                    "color": "rgb(96,73,122)",
+                                    "textStyle": {
+                                        "fontclass": "大",
+                                        "fontFamily": "黑体：22点"
+                                    }
+                                }
+                            },
+                            "name": "鼓励行业",
+                            "value": "80.00"
+                        },
+                        {
+                            "itemStyle": {
+                                "normal": {
+                                    "color": "rgb(89,89,89)",
+                                    "textStyle": {
+                                        "fontclass": "小",
+                                        "fontFamily": "黑体：16点"
+                                    }
+                                }
+                            },
+                            "name": "客户忠诚度高",
+                            "value": "20.00"
+                        },
+                        {
+                            "itemStyle": {
+                                "normal": {
+                                    "color": "rgb(0,102,255)",
+                                    "textStyle": {
+                                        "fontclass": "小",
+                                        "fontFamily": "黑体：16点"
+                                    }
+                                }
+                            },
+                            "name": "经营不稳定",
+                            "value": "20.00"
+                        },
+                        {
+                            "itemStyle": {
+                                "normal": {
+                                    "color": "rgb(73,69,41)",
+                                    "textStyle": {
+                                        "fontclass": "小",
+                                        "fontFamily": "黑体：16点"
+                                    }
+                                }
+                            },
+                            "name": "存在交易风险",
+                            "value": "20.00"
+                        },
+                        {
+                            "itemStyle": {
+                                "normal": {
+                                    "color": "rgb(15,35,225)",
+                                    "textStyle": {
+                                        "fontclass": "中",
+                                        "fontFamily": "黑体：18点"
+                                    }
+                                }
+                            },
+                            "name": "供应商实力强",
+                            "value": "35.00"
+                        }
+                    ],
+                    "xypfmd": "良好",
+                    "xypfqj": "超过95%企业"
+                },
+                "code": "0",
+                "type": "qyhx",
+                "msg": "success"
+            };
+            QXHXinit(data);
+        });*/
+
+    </script>
+
+
+</body>
+</html>

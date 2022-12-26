@@ -1,0 +1,74 @@
+{
+  title : {
+    text: '',
+    x:'center',
+    y:'bottom',
+    textStyle: {
+      color: "#333333",
+      fontWeight: "bold",
+      fontSize: "16",
+      fontFamily: "Microsoft YaHei"
+    }
+  },
+  tooltip : {
+    formatter: "{b} : {c}"
+  },
+  series : [
+    {
+      name:'业务指标',
+      type:'gauge',
+      splitNumber: 5,
+      max: 1000,
+      center: ['50%', '50%'],
+      axisLine: {
+        lineStyle: {
+          color: [[0.2, '#228b22'],[0.8, '#48b'],[1, '#ff4500']],
+
+          width: 10
+        }
+      },
+      axisTick: {
+        splitNumber: 10,
+        length :16,
+        lineStyle: {
+          color: 'auto'
+        }
+      },
+      axisLabel: {
+        textStyle: {
+          color: 'auto'
+        }
+      },
+      splitLine: {
+        show: true,
+        length :30,
+        lineStyle: {
+          color: 'auto'
+        }
+      },
+      pointer : {
+        show: true,
+        width : 6
+      },
+      title : {
+        show : false,
+        offsetCenter: [0, '-15%'],
+        textStyle: {
+          fontWeight: 'bolder'
+        }
+      },
+      detail : {
+        formatter:'{value}',
+        offsetCenter:[0, '15%'],
+        textStyle: {
+          color: 'auto',
+          fontWeight: 'bolder',
+          fontSize:50
+        }
+      },
+
+      data:[{value: 699, name: '综合评分'}]
+    }
+
+  ]
+};

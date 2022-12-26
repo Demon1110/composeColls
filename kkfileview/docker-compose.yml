@@ -1,0 +1,14 @@
+version: '3'
+services:
+  kkfileview:
+    image: keking/kkfileview:latest
+    container_name: kkfileview
+    restart: always
+    environment: 
+      TZ: Asia/Shanghai
+      LANG: en_US.UTF-8
+    volumes:
+      - "./config:/opt/kkFileView-2.2.0/config"
+      - "./file:/opt/kkFileView-2.2.0/file"
+    ports: 
+      - "8012:8012"

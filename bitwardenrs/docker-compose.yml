@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+ bitwarden:
+  image: bitwardenrs/server
+  restart: always
+  volumes:
+      - ./bw-data:/data
+      - ./ssl:/ssl
+  ports:
+    - 443:80
+  environment:
+   ROCKET_TLS: '{certs = "/ssl/fullchain.pem", key = "/ssl/key.pem"}'
+   LOG_FILE: '/data/bitwarden.log'
+   SIGNUPS_ALLOWED: 'true'

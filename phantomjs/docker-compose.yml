@@ -1,0 +1,19 @@
+version: '3'
+services:
+  phantomjs:
+    image: wernight/phantomjs:2.1.1 
+    container_name: phantomjs                                        # 容器名为'mysql'
+    restart: always                                              # 指定容器退出后的重启策略为始终重启
+    volumes:                                                     # 数据卷挂载路径设置,将本机目录映射到容器目录
+      - "/etc/localtime:/etc/localtime:ro"
+      - "./convertpng:/home/convertpng"
+    environment:                        # 设置环境变量,相当于docker run命令中的-e
+      TZ: Asia/Shanghai
+      LANG: en_US.UTF-8
+    #command: ['phantomjs','/home/convertpng/tt.js','8910']
+    working_dir: "/home/convertpng"
+    command: ['/home/convertpng/start.sh']
+    expose: 
+      - "2001"
+    ports:                              # 映射端口
+      - "2001:2001"

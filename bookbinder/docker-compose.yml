@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    image: pubtools/bookbinder-8.1
+    ports:
+    - "4567:4567"
+    - "9292:9292"
+    volumes:
+      - ./data:/c/Users
+    restart: unless-stopped

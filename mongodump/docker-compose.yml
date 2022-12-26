@@ -1,0 +1,16 @@
+version: '3'
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb-dump
+    restart: no                              # 指定容器退出后的重启策略为始终重启
+    #    ports:
+    #      - 27017:27017
+    volumes:                                    # 数据卷挂载路径设置,将本机目录映射到容器目录
+      - /etc/localtime:/etc/localtime:ro
+      - /data/mongo_dump/:/mongo_dump
+    environment:                                # 设置环境变量,相当于docker run命令中的-e
+      TZ: Asia/Shanghai
+      LANG: en_US.UTF-8
+    command: mongoexport -h 192.168.8.212 -u aisino -p abc123ABC -d ebip -c process_ins_form_db -f _id,formDataJson,processDefId,formDomJson,processInsId --csv -o /mongo_dump/process_ins_form_db.csv
+

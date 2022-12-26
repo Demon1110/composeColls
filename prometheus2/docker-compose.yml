@@ -1,0 +1,66 @@
+version: '3'
+
+services:
+  prometheus:
+    image: prom/prometheus:v2.33.1
+    container_name: "prometheus"
+    restart: always
+    environment:
+      TZ: Asia/Shanghai
+      LANG: en_US.UTF-8
+    logging:
+      options:
+        max-size: "1g"
+    networks:
+      - "prometheusnet"
+    volumes:
+      - /etc/localtime:/etc/localtime
+      - ./prometheus/work:/prometheus
+      - ./prometheus/etc:/etc/prometheus
+    ports:
+      - 9999:9090
+    command: 
+      - --web.enable-lifecycle
+      - --config.file=/etc/prometheus/prometheus.yml
+  alertmanager: 
+    image: prom/alertmanager:v0.23.0
+    container_name: "alertmanager"
+    restart: always
+    environment:
+      TZ: Asia/Shanghai
+      LANG: en_US.UTF-8
+    logging:
+      options:
+        max-size: "1g"
+    networks:
+      - "prometheusnet"
+    volumes:
+      - /etc/localtime:/etc/localtime
+      - ./alertmanager/work:/alertmanager
+      - ./alertmanager/etc:/etc/alertmanager
+    ports:
+      - 9093:9093
+  grafana: 
+    image: grafana/grafana:latest
+    container_name: "grafana"
+    restart: always
+    environment:
+      TZ: Asia/Shanghai
+      LANG: en_US.UTF-8
+    logging:
+      options:
+        max-size: "1g"
+    networks:
+      - "prometheusnet"
+    volumes: 
+      - /etc/localtime:/etc/localtime
+      - ./grafana/lib:/var/lib/grafana
+      - ./grafana/logs:/var/log/grafana
+    environment: 
+      GF_SECURITY_ADMIN_PASSWORD: 123456
+    ports:
+      - 3000:3000
+
+networks: 
+  prometheusnet: 
+    driver: bridge

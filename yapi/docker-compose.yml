@@ -1,0 +1,25 @@
+version: '3.7'
+
+services:
+  yapi:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    image: skycitygalaxy/yapi
+    container_name: yapi
+    environment:
+      - VERSION=1.9.2
+      - LOG_PATH=/tmp/yapi.log
+      - HOME=/home
+      - MY_PORT=3001
+      - MY_ACOUNT=zcpt
+      - MY_DB_SERVER=192.168.8.212
+      - MY_DB_NAME=yapi
+      - MY_DB_PORT=27017
+      - MY_USER=yapi
+      - MY_PASS=abc123ABC
+      - MY_AUTH=yapi
+    ports:
+      - 127.0.0.1:3000:3000
+    volumes:
+      - ~/data/yapi/log/yapi.log:/home/vendors/log

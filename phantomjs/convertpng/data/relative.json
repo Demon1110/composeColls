@@ -1,0 +1,3066 @@
+{
+  "series": [
+    {
+      "roam": true,
+      "focusNodeAdjacency": true,
+      "animationEasing": "sinusoidalIn",
+      "layout": "force",
+      "data": [
+        {
+          "id": "2345819600",
+          "category": 0,
+          "name": "北京市爱威电子技术公司"
+        },
+        {
+          "id": "295086482",
+          "category": 0,
+          "name": "哈尔滨工业大学"
+        },
+        {
+          "id": "896852336",
+          "category": 0,
+          "name": "泉州航天信息科技有限公司"
+        },
+        {
+          "id": "2350300179",
+          "category": 0,
+          "name": "大象云天信息技术有限公司"
+        },
+        {
+          "id": "598986165",
+          "category": 0,
+          "name": "河北航天信息有限公司"
+        },
+        {
+          "id": "1956328604",
+          "category": 1,
+          "name": "於亮"
+        },
+        {
+          "id": "2343625150",
+          "category": 0,
+          "name": "江苏爱信诺信息技术有限公司"
+        },
+        {
+          "id": "2357692564",
+          "category": 0,
+          "name": "青岛航天金穗电子技术有限公司"
+        },
+        {
+          "id": "3136960736",
+          "category": 0,
+          "name": "浙江诺诺网络科技有限公司"
+        },
+        {
+          "id": "2345819599",
+          "category": 0,
+          "name": "北京机电工程总体设计部"
+        },
+        {
+          "id": "2345902066",
+          "category": 0,
+          "name": "福建航天金穗技术有限公司"
+        },
+        {
+          "id": "1409767467",
+          "category": 0,
+          "name": "江苏航天信息有限公司"
+        },
+        {
+          "id": "281431289",
+          "category": 0,
+          "name": "辽宁航天信息有限公司"
+        },
+        {
+          "id": "744859685",
+          "category": 0,
+          "name": "福建航天信息科技有限公司"
+        },
+        {
+          "id": "87783287",
+          "category": 0,
+          "name": "北京航天斯大电子有限公司"
+        },
+        {
+          "id": "107533887",
+          "category": 0,
+          "name": "北京金世华冠广告有限公司"
+        },
+        {
+          "id": "14869177",
+          "category": 0,
+          "name": "北京航天联志科技有限公司"
+        },
+        {
+          "id": "2361495201",
+          "category": 0,
+          "name": "宁波爱信诺航天信息有限公司"
+        },
+        {
+          "id": "1061013342",
+          "category": 0,
+          "name": "宁波爱信诺信息技术有限公司"
+        },
+        {
+          "id": "9154797",
+          "category": 0,
+          "name": "中国长城工业总公司"
+        },
+        {
+          "id": "2370403630",
+          "category": 0,
+          "name": "重庆航税科技有限公司"
+        },
+        {
+          "id": "1315744260",
+          "category": 0,
+          "name": "航天云网科技发展有限责任公司"
+        },
+        {
+          "id": "2309419990",
+          "category": 0,
+          "name": "无锡航天信息有限公司"
+        },
+        {
+          "id": "1846881892",
+          "category": 1,
+          "name": "吴明德"
+        },
+        {
+          "id": "12651698",
+          "category": 0,
+          "name": "北京航天金税技术有限公司"
+        },
+        {
+          "id": "710625839",
+          "category": 0,
+          "name": "贵州爱信诺航天信息有限公司"
+        },
+        {
+          "id": "2313797533",
+          "category": 0,
+          "name": "爱信诺征信有限公司"
+        },
+        {
+          "id": "12651711",
+          "category": 0,
+          "itemStyle": {
+            "normal": {
+              "color": "#13D1BE"
+            }
+          },
+          "name": "航天信息股份有限公司"
+        },
+        {
+          "id": "23090657",
+          "category": 0,
+          "name": "航天信息系统工程（北京）有限公司"
+        },
+        {
+          "id": "427498493",
+          "category": 0,
+          "name": "上海爱信诺航天信息有限公司"
+        },
+        {
+          "id": "2896256558",
+          "category": 0,
+          "name": "陕西航天金穗电子科技有限责任公司"
+        },
+        {
+          "id": "2853338243",
+          "category": 0,
+          "name": "深圳航信德诚科技有限公司"
+        },
+        {
+          "id": "1145271518",
+          "category": 0,
+          "name": "苏州航天信息有限公司"
+        },
+        {
+          "id": "2329158774",
+          "category": 0,
+          "name": "北京航天科工信息产业投资基金"
+        },
+        {
+          "id": "94567169",
+          "category": 0,
+          "name": "航天新概念科技有限公司"
+        },
+        {
+          "id": "2337334772",
+          "category": 0,
+          "name": "海南航天信息有限公司"
+        },
+        {
+          "id": "373971680",
+          "category": 0,
+          "name": "重庆航天新世纪卫星应用技术有限责任公司"
+        },
+        {
+          "id": "2270648316",
+          "category": 1,
+          "name": "韩树旺"
+        },
+        {
+          "id": "25194286",
+          "category": 0,
+          "name": "北京航天金盾科技有限公司"
+        },
+        {
+          "id": "195659037",
+          "category": 0,
+          "name": "江西航天信息有限公司"
+        },
+        {
+          "id": "2410632980",
+          "category": 0,
+          "name": "上海同人航天信息科技有限公司"
+        },
+        {
+          "id": "1655982711",
+          "category": 0,
+          "name": "临沂爱信诺航天信息有限公司"
+        },
+        {
+          "id": "144785509",
+          "category": 0,
+          "name": "四川航天金穗高技术有限公司"
+        },
+        {
+          "id": "374000271",
+          "category": 0,
+          "name": "湖南航天卫星通信科技有限公司"
+        },
+        {
+          "id": "2428044917",
+          "category": 0,
+          "name": "航天信息（常州）研发基地有限公司"
+        },
+        {
+          "id": "379770476",
+          "category": 0,
+          "name": "黑龙江金穗科技有限公司"
+        },
+        {
+          "id": "1958624879",
+          "category": 1,
+          "name": "时旸"
+        },
+        {
+          "id": "928422794",
+          "category": 0,
+          "name": "广西航天信息技术有限公司"
+        },
+        {
+          "id": "1134752636",
+          "category": 0,
+          "name": "湖北航天信息技术有限公司"
+        },
+        {
+          "id": "3141602210",
+          "category": 0,
+          "name": "四川航天信息有限公司"
+        },
+        {
+          "id": "7343766",
+          "category": 0,
+          "name": "北京航天世纪投资咨询有限公司"
+        },
+        {
+          "id": "354218480",
+          "category": 0,
+          "name": "深圳德诚信用咭制造有限公司"
+        },
+        {
+          "id": "3089010927",
+          "category": 0,
+          "name": "航天信息江苏有限公司"
+        },
+        {
+          "id": "8644210",
+          "category": 0,
+          "name": "北京遥测技术研究所"
+        },
+        {
+          "id": "2435284946",
+          "category": 0,
+          "name": "镇江市佳科电脑有限公司"
+        },
+        {
+          "id": "2421679277",
+          "category": 0,
+          "name": "大象慧云信息技术有限公司"
+        },
+        {
+          "id": "2032114147",
+          "category": 1,
+          "name": "殷礼明"
+        },
+        {
+          "id": "15979022",
+          "category": 0,
+          "name": "中国航天科工飞航技术研究院"
+        },
+        {
+          "id": "191558036",
+          "category": 0,
+          "name": "西部安全认证中心有限责任公司"
+        },
+        {
+          "id": "2544581290",
+          "category": 0,
+          "name": "厦门爱信诺航天信息科技有限公司"
+        },
+        {
+          "id": "2854165273",
+          "category": 0,
+          "name": "吉林航天信息有限公司"
+        },
+        {
+          "id": "4843854",
+          "category": 0,
+          "name": "中国牧工商（集团）总公司"
+        },
+        {
+          "id": "188134463",
+          "category": 0,
+          "name": "新疆航天信息有限公司"
+        },
+        {
+          "id": "1770190476",
+          "category": 1,
+          "name": "付建军"
+        },
+        {
+          "id": "864318611",
+          "category": 0,
+          "name": "深圳航天信息有限公司"
+        },
+        {
+          "id": "2521213278",
+          "category": 0,
+          "name": "山东航天金税电子技术有限公司"
+        },
+        {
+          "id": "2224774019",
+          "category": 1,
+          "name": "郭庆旺"
+        },
+        {
+          "id": "955061708",
+          "category": 0,
+          "name": "大连航天金穗科技有限公司"
+        },
+        {
+          "id": "1013503817",
+          "category": 0,
+          "name": "青岛航天信息有限公司"
+        },
+        {
+          "id": "37391125",
+          "category": 0,
+          "name": "浙江爱信诺航天信息有限公司"
+        },
+        {
+          "id": "31118575",
+          "category": 0,
+          "name": "北京航天在线网络科技有限公司"
+        },
+        {
+          "id": "994920564",
+          "category": 0,
+          "name": "吉林爱信诺航天信息有限公司"
+        },
+        {
+          "id": "2536835087",
+          "category": 0,
+          "name": "苏州工业园区航天自动化有限公司"
+        },
+        {
+          "id": "2349077823",
+          "category": 1,
+          "name": "刘尔琦"
+        },
+        {
+          "id": "2064980053",
+          "category": 1,
+          "name": "王云林"
+        },
+        {
+          "id": "2357941194",
+          "category": 0,
+          "name": "北京航天科工信息产业投资基金（有限合伙）"
+        },
+        {
+          "id": "2558447931",
+          "category": 0,
+          "name": "佳木斯金穗信息技术有限公司"
+        },
+        {
+          "id": "249216925",
+          "category": 0,
+          "name": "甘肃航天信息有限公司"
+        },
+        {
+          "id": "1846788440",
+          "category": 1,
+          "name": "吴旭光"
+        },
+        {
+          "id": "1455761811",
+          "category": 0,
+          "name": "陕西航天信息有限公司"
+        },
+        {
+          "id": "302802796",
+          "category": 0,
+          "name": "山西航天信息有限公司"
+        },
+        {
+          "id": "827399217",
+          "category": 0,
+          "name": "航天信息股份有限公司涿州分公司"
+        },
+        {
+          "id": "24942105",
+          "category": 0,
+          "name": "航天信息软件技术有限公司"
+        },
+        {
+          "id": "21766699",
+          "category": 0,
+          "name": "北京爱信诺航天科技有限公司"
+        },
+        {
+          "id": "2973708887",
+          "category": 0,
+          "name": "天津航天信息有限公司"
+        },
+        {
+          "id": "2437755941",
+          "category": 0,
+          "name": "山东爱信诺航天信息有限公司"
+        },
+        {
+          "id": "978632509",
+          "category": 0,
+          "name": "上海爱信诺航芯电子科技有限公司"
+        },
+        {
+          "id": "374003494",
+          "category": 0,
+          "name": "湖南航天信息有限公司"
+        },
+        {
+          "id": "163781804",
+          "category": 0,
+          "name": "重庆航天金穗高技术有限公司"
+        },
+        {
+          "id": "161828567",
+          "category": 0,
+          "name": "航天信息重庆有限公司"
+        },
+        {
+          "id": "23615514",
+          "category": 0,
+          "name": "华迪计算机集团有限公司"
+        },
+        {
+          "id": "1551359233",
+          "category": 0,
+          "name": "德利多富信息系统（上海）有限公司"
+        },
+        {
+          "id": "1545057133",
+          "category": 0,
+          "name": "常州航天信息有限公司"
+        },
+        {
+          "id": "180806468",
+          "category": 0,
+          "name": "天津航天金穗科技开发有限公司"
+        },
+        {
+          "id": "379769645",
+          "category": 0,
+          "name": "哈尔滨航穗科技有限公司"
+        },
+        {
+          "id": "652715383",
+          "category": 0,
+          "name": "江苏爱信诺航天信息科技有限公司"
+        },
+        {
+          "id": "2575400472",
+          "category": 0,
+          "name": "哈尔滨金穗信息技术有限公司"
+        },
+        {
+          "id": "695791331",
+          "category": 0,
+          "name": "贵州航天金穗科技有限公司"
+        },
+        {
+          "id": "2450727311",
+          "category": 0,
+          "name": "河北航天金穗技术有限公司"
+        },
+        {
+          "id": "476086721",
+          "category": 0,
+          "name": "航天信息河南有限公司"
+        },
+        {
+          "id": "1394259134",
+          "category": 0,
+          "name": "镇江航天信息有限公司"
+        },
+        {
+          "id": "16176465",
+          "category": 0,
+          "name": "航天科工财务有限责任公司"
+        },
+        {
+          "id": "161828365",
+          "category": 0,
+          "name": "重庆爱信诺科技有限公司"
+        },
+        {
+          "id": "104102788",
+          "category": 0,
+          "name": "欣诺紧急救援装备有限公司"
+        },
+        {
+          "id": "218033478",
+          "category": 0,
+          "name": "青海航天信息有限公司"
+        },
+        {
+          "id": "2068132093",
+          "category": 1,
+          "name": "王增梅"
+        },
+        {
+          "id": "1777695305",
+          "category": 1,
+          "name": "伍青"
+        },
+        {
+          "id": "1142908381",
+          "category": 0,
+          "name": "航天信息（广东）有限公司"
+        },
+        {
+          "id": "2316110282",
+          "category": 0,
+          "name": "福建爱信诺航天信息科技有限公司"
+        },
+        {
+          "id": "25328714",
+          "category": 0,
+          "name": "中科信息安全共性技术国家工程研究中心有限公司"
+        },
+        {
+          "id": "864324188",
+          "category": 0,
+          "name": "航天信息股份有限公司深圳分公司"
+        },
+        {
+          "id": "6502329",
+          "category": 0,
+          "name": "中国航天科技集团公司第一研究院"
+        },
+        {
+          "id": "1921827152",
+          "category": 1,
+          "name": "张军"
+        },
+        {
+          "id": "2350745027",
+          "category": 0,
+          "name": "山西航天金穗科技有限公司"
+        },
+        {
+          "id": "399933491",
+          "category": 0,
+          "name": "河北航天信息技术有限公司"
+        },
+        {
+          "id": "26011232",
+          "category": 0,
+          "name": "中国航天科技集团公司第五研究院"
+        },
+        {
+          "id": "2943999636",
+          "category": 0,
+          "name": "航信德利信息系统（上海）有限公司"
+        },
+        {
+          "id": "1114395009",
+          "category": 0,
+          "name": "上海航天实业有限公司"
+        },
+        {
+          "id": "582026563",
+          "category": 0,
+          "name": "安徽航天信息科技有限公司"
+        },
+        {
+          "id": "294133360",
+          "category": 0,
+          "name": "内蒙古航天信息有限公司"
+        },
+        {
+          "id": "934797903",
+          "category": 0,
+          "name": "淄博航天信息有限公司"
+        },
+        {
+          "id": "3116359747",
+          "category": 0,
+          "name": "中国航天科工集团有限公司"
+        }
+      ],
+      "label": {
+        "normal": {
+          "position": "bottom",
+          "show": true
+        }
+      },
+      "links": [
+        {
+          "id": "123291605",
+          "source": "1956328604",
+          "lineStyle": {
+            "normal": {
+              "color": "#98CDDF"
+            }
+          },
+          "target": "2350300179",
+          "label": {
+            "normal": {
+              "formatter": "董事长|法人",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "257544462",
+          "source": "1956328604",
+          "lineStyle": {
+            "normal": {
+              "color": "#A2BC63"
+            }
+          },
+          "target": "87783287",
+          "label": {
+            "normal": {
+              "formatter": "法人|董事长",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "188263695",
+          "source": "2345819600",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "12651711",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "185392787",
+          "source": "295086482",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "12651711",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "51657227",
+          "source": "1956328604",
+          "lineStyle": {
+            "normal": {
+              "color": "#98CDDF"
+            }
+          },
+          "target": "12651711",
+          "label": {
+            "normal": {
+              "formatter": "总经理",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "185456048",
+          "source": "2345819599",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "12651711",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "209428897",
+          "source": "1956328604",
+          "lineStyle": {
+            "normal": {
+              "color": "#A2BC63"
+            }
+          },
+          "target": "2421679277",
+          "label": {
+            "normal": {
+              "formatter": "法人|董事长",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "56275355",
+          "source": "87783287",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2370403630",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "175011819",
+          "source": "87783287",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2536835087",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "182063216",
+          "source": "9154797",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "12651711",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "285304745",
+          "source": "9154797",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "94567169",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "51298074",
+          "source": "1846881892",
+          "lineStyle": {
+            "normal": {
+              "color": "#98CDDF"
+            }
+          },
+          "target": "12651711",
+          "label": {
+            "normal": {
+              "formatter": "董事",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "208250510",
+          "source": "12651698",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "21766699",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "93392266",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "896852336",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "60192490",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2350300179",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "159118699",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "598986165",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "67137981",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2343625150",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "83700630",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2357692564",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "171505550",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "3136960736",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "79343127",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2345902066",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "70205424",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "1409767467",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "135195264",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "281431289",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "109976813",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "744859685",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "145493289",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "87783287",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "153138960",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "107533887",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "164215278",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "14869177",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "110496976",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2361495201",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "61980499",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "1061013342",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "62888138",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2370403630",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "154238375",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "1315744260",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "78195528",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2309419990",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "176936812",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "12651698",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "141170667",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "710625839",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "155793712",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2313797533",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "172489212",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "23090657",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "179765702",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "427498493",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "108919462",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2896256558",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "134745942",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2853338243",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "111692972",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "1145271518",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "57013195",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2329158774",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "122553675",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2337334772",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "145214799",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "373971680",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "172230643",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "25194286",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "151087659",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "195659037",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "80136058",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2410632980",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "83447329",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "1655982711",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "109899820",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "144785509",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "106043173",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "374000271",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "72529934",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2428044917",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "109487780",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "379770476",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "119163316",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "928422794",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "119402880",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "1134752636",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "176363560",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "3141602210",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "161143798",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "7343766",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "57968128",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "354218480",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "151640293",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "3089010927",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "73337126",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2435284946",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "159994104",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2421679277",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "122133597",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "191558036",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "78337951",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2544581290",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "70142011",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2854165273",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "116794954",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "188134463",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "124788839",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "864318611",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "64218012",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2521213278",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "173444010",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "955061708",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "87727072",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "1013503817",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "75943217",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "37391125",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "174287963",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "31118575",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "112154191",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "994920564",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "71790318",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2536835087",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "126398211",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2357941194",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "94330658",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2558447931",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "90919749",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "249216925",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "139791581",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "1455761811",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "41762802",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#98CDDF"
+            }
+          },
+          "target": "827399217",
+          "label": {
+            "normal": {
+              "formatter": "分支机构",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "112824105",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "302802796",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "172230642",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "24942105",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "167245037",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "21766699",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "80902662",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2437755941",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "131150639",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2973708887",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "74745458",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "978632509",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "79387774",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "374003494",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "101155468",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "163781804",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "144262005",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "161828567",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "168546149",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "23615514",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "63379582",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "1551359233",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "78575303",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "1545057133",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "62986258",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "180806468",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "118360209",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "379769645",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "73235697",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "652715383",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "82523164",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2575400472",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "140941320",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "695791331",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "94304510",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2450727311",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "97453212",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "476086721",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "77509384",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "1394259134",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "167323319",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "16176465",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "145467736",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "161828365",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "151918451",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "104102788",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "130751186",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "218033478",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "155350371",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "1142908381",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "92017880",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2316110282",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "171034038",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "25328714",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "110090796",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "864324188",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "100971379",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2350745027",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "95263123",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "399933491",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "73324850",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2943999636",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "88024408",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "582026563",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "103571747",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "294133360",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "89009909",
+          "source": "12651711",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "934797903",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "171390248",
+          "source": "23090657",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "598986165",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "333590047",
+          "source": "23090657",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "427498493",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "134524344",
+          "source": "23090657",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "25194286",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "301340372",
+          "source": "23090657",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "31118575",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "171390247",
+          "source": "23090657",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "399933491",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "185392784",
+          "source": "94567169",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "12651711",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "49745998",
+          "source": "2270648316",
+          "lineStyle": {
+            "normal": {
+              "color": "#98CDDF"
+            }
+          },
+          "target": "12651711",
+          "label": {
+            "normal": {
+              "formatter": "董事",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "22845796",
+          "source": "379770476",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2558447931",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "246234774",
+          "source": "379770476",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "379769645",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "314018505",
+          "source": "379770476",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "2575400472",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "300562398",
+          "source": "1958624879",
+          "lineStyle": {
+            "normal": {
+              "color": "#A2BC63"
+            }
+          },
+          "target": "3136960736",
+          "label": {
+            "normal": {
+              "formatter": "法人|董事长",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "39528918",
+          "source": "1958624879",
+          "lineStyle": {
+            "normal": {
+              "color": "#A2BC63"
+            }
+          },
+          "target": "12651711",
+          "label": {
+            "normal": {
+              "formatter": "法人|董事长",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "139241971",
+          "source": "1958624879",
+          "lineStyle": {
+            "normal": {
+              "color": "#98CDDF"
+            }
+          },
+          "target": "1551359233",
+          "label": {
+            "normal": {
+              "formatter": "董事长|法人",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "162121303",
+          "source": "1958624879",
+          "lineStyle": {
+            "normal": {
+              "color": "#98CDDF"
+            }
+          },
+          "target": "2943999636",
+          "label": {
+            "normal": {
+              "formatter": "董事长|法人",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "96045390",
+          "source": "7343766",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "23615514",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "185815754",
+          "source": "8644210",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "12651711",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "50221073",
+          "source": "2032114147",
+          "lineStyle": {
+            "normal": {
+              "color": "#98CDDF"
+            }
+          },
+          "target": "12651711",
+          "label": {
+            "normal": {
+              "formatter": "董事",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "185931637",
+          "source": "15979022",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "12651711",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "201336648",
+          "source": "15979022",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "16176465",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "185392786",
+          "source": "4843854",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "12651711",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "52669359",
+          "source": "1770190476",
+          "lineStyle": {
+            "normal": {
+              "color": "#98CDDF"
+            }
+          },
+          "target": "12651711",
+          "label": {
+            "normal": {
+              "formatter": "监事",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "49746248",
+          "source": "2224774019",
+          "lineStyle": {
+            "normal": {
+              "color": "#98CDDF"
+            }
+          },
+          "target": "12651711",
+          "label": {
+            "normal": {
+              "formatter": "董事",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "46692844",
+          "source": "2349077823",
+          "lineStyle": {
+            "normal": {
+              "color": "#98CDDF"
+            }
+          },
+          "target": "12651711",
+          "label": {
+            "normal": {
+              "formatter": "董事",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "49773996",
+          "source": "2064980053",
+          "lineStyle": {
+            "normal": {
+              "color": "#98CDDF"
+            }
+          },
+          "target": "12651711",
+          "label": {
+            "normal": {
+              "formatter": "董事",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "52338695",
+          "source": "1846788440",
+          "lineStyle": {
+            "normal": {
+              "color": "#98CDDF"
+            }
+          },
+          "target": "12651711",
+          "label": {
+            "normal": {
+              "formatter": "监事",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "213370514",
+          "source": "2068132093",
+          "lineStyle": {
+            "normal": {
+              "color": "#98CDDF"
+            }
+          },
+          "target": "2357692564",
+          "label": {
+            "normal": {
+              "formatter": "董事|法人",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "256491892",
+          "source": "2068132093",
+          "lineStyle": {
+            "normal": {
+              "color": "#98CDDF"
+            }
+          },
+          "target": "87783287",
+          "label": {
+            "normal": {
+              "formatter": "董事",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "56549149",
+          "source": "2068132093",
+          "lineStyle": {
+            "normal": {
+              "color": "#98CDDF"
+            }
+          },
+          "target": "12651711",
+          "label": {
+            "normal": {
+              "formatter": "监事",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "319335049",
+          "source": "2068132093",
+          "lineStyle": {
+            "normal": {
+              "color": "#98CDDF"
+            }
+          },
+          "target": "188134463",
+          "label": {
+            "normal": {
+              "formatter": "董事",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "142200318",
+          "source": "2068132093",
+          "lineStyle": {
+            "normal": {
+              "color": "#98CDDF"
+            }
+          },
+          "target": "2521213278",
+          "label": {
+            "normal": {
+              "formatter": "董事长|董事长|法人",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "104717038",
+          "source": "2068132093",
+          "lineStyle": {
+            "normal": {
+              "color": "#98CDDF"
+            }
+          },
+          "target": "104102788",
+          "label": {
+            "normal": {
+              "formatter": "董事",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "196370617",
+          "source": "2068132093",
+          "lineStyle": {
+            "normal": {
+              "color": "#98CDDF"
+            }
+          },
+          "target": "2350745027",
+          "label": {
+            "normal": {
+              "formatter": "董事",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "307296692",
+          "source": "2068132093",
+          "lineStyle": {
+            "normal": {
+              "color": "#98CDDF"
+            }
+          },
+          "target": "934797903",
+          "label": {
+            "normal": {
+              "formatter": "经理",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "46248450",
+          "source": "1777695305",
+          "lineStyle": {
+            "normal": {
+              "color": "#98CDDF"
+            }
+          },
+          "target": "12651711",
+          "label": {
+            "normal": {
+              "formatter": "副董事长",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "187840298",
+          "source": "6502329",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "12651711",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "47484003",
+          "source": "1921827152",
+          "lineStyle": {
+            "normal": {
+              "color": "#98CDDF"
+            }
+          },
+          "target": "12651711",
+          "label": {
+            "normal": {
+              "formatter": "董事",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "64374007",
+          "source": "1921827152",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "188134463",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "184366877",
+          "source": "26011232",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "12651711",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "180507931",
+          "source": "1114395009",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "12651711",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        },
+        {
+          "id": "184957044",
+          "source": "3116359747",
+          "lineStyle": {
+            "normal": {
+              "color": "#F47A53"
+            }
+          },
+          "target": "12651711",
+          "label": {
+            "normal": {
+              "formatter": "参股",
+              "show": true
+            }
+          }
+        }
+      ],
+      "categories": [
+        {
+          "itemStyle": {
+            "normal": {
+              "color": "#2394CE"
+            }
+          },
+          "name": "企业"
+        },
+        {
+          "itemStyle": {
+            "normal": {
+              "color": "#F25A29"
+            }
+          },
+          "name": "自然人"
+        }
+      ],
+      "force": {
+        "edgeLength": 200,
+        "layoutAnimation": false,
+        "repulsion": 400
+      },
+      "type": "graph",
+      "edgeSymbol": [
+        "none",
+        "arrow"
+      ],
+      "symbolSize": 60,
+      "draggable": true
+    }
+  ],
+  "toolbox": {
+    "feature": {
+      "saveAsImage": {}
+    },
+    "right": "1.5%"
+  },
+  "animation": false,
+  "legend": {
+    "data": [
+      "企业",
+      "自然人"
+    ]
+  },
+  "tooltip": {
+    "tigger": "item",
+    "show": false
+  }
+}

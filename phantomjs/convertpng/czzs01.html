@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>成长指数图表</title>
+    <meta charset="utf-8"/>
+    <style>
+        *{
+            font-family:"宋体"!important;
+        }
+    	body{ font-family:SimSun;font-size: 12px;line-height: 18px; }
+    	.czimg {
+		    background: rgba(0, 0, 0, 0) url("./czzs01.png") no-repeat scroll 0 0;
+		    display: block;
+		    background-size:100% auto;
+            position: relative;
+            width:500px;
+            height:197px;
+		}
+		.czline {
+		    border-left: 1.5px dashed red;
+		    height: 126px;
+		    left: 54px;
+		    position: absolute;
+		    top: 56px;
+		    width: 1px;
+		}
+		.czlegend {
+		    color: #585858;
+		    height: auto;
+		    left: 54px;
+		    position: absolute;
+		    top: 35px;
+		    width: auto;
+		}
+    </style>
+  </head>
+  <body>
+	<div id="czimg" class="czimg">
+		<div id="czline" style="left: 235.76px;" class="czline"></div>
+		<div id="czlegend" style="left: 200.76px;" class="czlegend">成长指数：23.6</div>
+	</div>
+  </body>
+</html>

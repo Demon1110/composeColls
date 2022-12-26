@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>企业稳定指数图表</title>
+    <meta charset="utf-8"/>
+    <style>
+    	body{ font-family:SimSun;font-size: 12px;line-height: 18px; }
+    	.wdimg {
+		    background: rgba(0, 0, 0, 0) url("./wdzs.png") no-repeat scroll 0 0;
+		    display: block;
+		    position: absolute;
+		    background-size:100% auto; 
+		}
+		.wdline {
+		    border-left: 1.5px dashed red;
+		    height: 206px;
+		    left: 54px;
+		    position: absolute;
+		    top: 56px;
+		    width: 1px;
+		}
+		.wdlegend {
+		    color: #585858;
+		    height: auto;
+		    left: 54px;
+		    position: absolute;
+		    top: 35px;
+		    width: auto;
+		}
+    </style>
+  </head>
+  <body>
+	<div id="wyimg" class="wyimg" style="width:720px;height:300px;margin-left:auto">
+		<div id="wyline" style="left: 235.76px;" class="wyline"></div>
+		<div id="wylegend" style="left: 200.76px;" class="wylegend">稳定指数：0.5</div>
+	</div>
+  </body>
+</html>
